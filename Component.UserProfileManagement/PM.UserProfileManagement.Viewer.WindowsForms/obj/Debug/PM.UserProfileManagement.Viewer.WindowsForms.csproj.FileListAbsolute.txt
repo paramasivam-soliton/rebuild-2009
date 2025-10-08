@@ -1,0 +1,8 @@
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PM.UserProfileManagement.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PathMedical.UserProfileManagement.Viewer.WindowsForms.Configuration.ConfigurationEditor.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PathMedical.UserProfileManagement.Viewer.WindowsForms.ProfileBrowser.ProfileMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PathMedical.UserProfileManagement.Viewer.WindowsForms.Properties.Path.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PathMedical.UserProfileManagement.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PathMedical.UserProfileManagement.Viewer.WindowsForms.UserBrowser.UserAccountMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PM.UserProfileManagement.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.Viewer.WindowsForms\obj\Debug\PM.UserProfileManagement.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.PrivateUserSettings\obj\Debug\PM.UserProfileManagement.PrivateUserSettings.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.PrivateUserSettings\obj\Debug\PathMedical.UserProfileManagement.PrivateUserSettings.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.PrivateUserSettings\obj\Debug\PathMedical.UserProfileManagement.PrivateUserSettings.Viewer.PrivateUserSettings.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.PrivateUserSettings\obj\Debug\PM.UserProfileManagement.PrivateUserSettings.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement.PrivateUserSettings\obj\Debug\PM.UserProfileManagement.PrivateUserSettings.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement\obj\Debug\PM.UserProfileManagement.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement\obj\Debug\PathMedical.UserProfileManagement.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement\obj\Debug\PM.UserProfileManagement.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.UserProfileManagement\PM.UserProfileManagement\obj\Debug\PM.UserProfileManagement.csproj.CoreCompileInputs.cache

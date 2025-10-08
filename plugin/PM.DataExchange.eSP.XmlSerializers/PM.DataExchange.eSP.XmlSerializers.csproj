@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.DataExchange.eSP.XmlSerializers.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37A508B8-F7B6-4371-B0FF-311321AC3534}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.DataExchange.eSP.XmlSerializers</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>Microsoft.Xml.Serialization.GeneratedAssembly</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PM.DataExchange.eSP">
+      <HintPath>lib\PM.DataExchange.eSP.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="XmlSerializationWriterDataUpload.cs" />
+    <Compile Include="XmlSerializationReaderDataUpload.cs" />
+    <Compile Include="XmlSerializer1.cs" />
+    <Compile Include="ArrayOfObjectSerializer.cs" />
+    <Compile Include="ArrayOfObjectSerializer1.cs" />
+    <Compile Include="ArrayOfObjectSerializer2.cs" />
+    <Compile Include="ArrayOfObjectSerializer3.cs" />
+    <Compile Include="ArrayOfObjectSerializer4.cs" />
+    <Compile Include="ArrayOfObjectSerializer5.cs" />
+    <Compile Include="ArrayOfObjectSerializer6.cs" />
+    <Compile Include="ArrayOfObjectSerializer7.cs" />
+    <Compile Include="ArrayOfObjectSerializer8.cs" />
+    <Compile Include="ArrayOfObjectSerializer9.cs" />
+    <Compile Include="ArrayOfObjectSerializer10.cs" />
+    <Compile Include="ArrayOfObjectSerializer11.cs" />
+    <Compile Include="XmlSerializerContract.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

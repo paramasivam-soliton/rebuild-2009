@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="User Profile Management" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecordDescriptions>
+   
+    <!-- Users -->
+    <RecordDescription Identifier="User">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="LoginName" Datatype="String"/>
+      <ColumnDescription Identifier="LoginId" Datatype="String"/>
+      <ColumnDescription Identifier="Forename" Datatype="String"/>
+      <ColumnDescription Identifier="Surname" Datatype="String"/>
+      <ColumnDescription Identifier="Password" Datatype="String"/>
+      <ColumnDescription Identifier="PasswordSalt" Datatype="Guid"/>
+      <ColumnDescription Identifier="Language" Datatype="String"/>
+      <ColumnDescription Identifier="FacilityId" Datatype="Guid"/>
+      <ColumnDescription Identifier="ProfileId" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="AccessPermission">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="AccessGranted" Datatype="Boolean"/>
+    </RecordDescription>
+
+    <!-- Profile and it's Permissions -->
+    <RecordDescription Identifier="UserProfile">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Description" Datatype="String"/>
+      <ComplexColumnDescription Identifier="ProfileAccessPermissions" RecordDescription="AccessPermission" IsArray="True"/>
+    </RecordDescription>
+    
+  </RecordDescriptions>
+</RecordDescriptionSet>

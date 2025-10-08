@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.PatientManagement.MultipleTestViewer.WindowsForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3350B7D5-6685-49F5-966E-BE791302AB8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.PatientManagement.MultipleTestViewer.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.PatientManagement.MultipleTestViewer.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v9.3">
+      <HintPath>lib\DevExpress.XtraWizard.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.ABR" />
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.DPOAE" />
+    <Reference Include="PM.PatientManagement">
+      <HintPath>lib\PM.PatientManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.TEOAE" />
+    <Reference Include="PM.UserInterface.WindowsForms">
+      <HintPath>lib\PM.UserInterface.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MultipleTestViewerComponent.cs" />
+    <Compile Include="WaveFileImportTriggers.cs" />
+    <Compile Include="WaveFormImport\WaveFileImportProgress.cs" />
+    <Compile Include="WaveFormImport\ProcessState.cs" />
+    <Compile Include="WaveFormImport\WaveFormImportAssistent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaveFormImport\WaveFormImportAssitantComponentModule.cs" />
+    <Compile Include="WaveFormImport\WaveFormImportController.cs" />
+    <Compile Include="TestViewer\TestViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TestViewer\TestViewerComponentModule.cs" />
+    <Compile Include="TestViewer\TestViewerController.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Data\WaveFormDataManager.cs" />
+    <Compile Include="Automaton\StartWaveFileDataImportCommand.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PM\PatientManagement\MultipleTestViewer\WindowsForms\dll.licenses" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="TestViewer\TestViewer.resx" />
+    <EmbeddedResource Include="WaveFormImport\WaveFormImportAssistent.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

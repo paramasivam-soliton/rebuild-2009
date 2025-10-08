@@ -1,0 +1,2 @@
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools\obj\Debug\PM.ServiceTools.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools\obj\Debug\PM.ServiceTools.csproj.CoreCompileInputs.cache

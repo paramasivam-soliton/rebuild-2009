@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.UserInterface.WindowsForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FA9A6AF-8AD0-4637-917F-FC41F13F3D8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.UserInterface.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.UserInterface.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v9.3">
+      <HintPath>lib\DevExpress.BonusSkins.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.3">
+      <HintPath>lib\DevExpress.XtraGrid.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v9.3">
+      <HintPath>lib\DevExpress.XtraPrinting.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v9.3">
+      <HintPath>lib\DevExpress.XtraReports.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement">
+      <HintPath>lib\PM.UserProfileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationHelper.cs" />
+    <Compile Include="ComponentResourceManagement.cs" />
+    <Compile Include="UserInterfaceManagement\DocumentPrintingManager.cs" />
+    <Compile Include="UserInterfaceManagement\AppComponentUI.cs" />
+    <Compile Include="UserInterfaceManagement\UserInterfaceManager.cs" />
+    <Compile Include="UserInterfaceManagement\Presentation\DevExpress\DevExpressSingleSelectionGridViewHelper.cs" />
+    <Compile Include="UserInterfaceManagement\Presentation\DevExpress\DevExpressMutliSelectionGridViewHelper.cs" />
+    <Compile Include="UserInterfaceManagement\Command\ControlValueModificationCommand.cs" />
+    <Compile Include="UserInterfaceManagement\Command\UndoUICommand.cs" />
+    <Compile Include="UserInterfaceControls\LayoutPanel\FastFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\LayoutPanel\FastTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\SelectionChangingEventArgs.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\ComboBoxItemWrapper.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\ControlModificationHelper.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\1ControlModificationHelper.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressCheckedEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\FieldValidationRule.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressPasswordEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressMemoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressSpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\DevExpressTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\FolderNameValidator.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\MrnValidator.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\MrcMedialRecordNumberValidator.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\RibbonHelper.cs" />
+    <Compile Include="UserInterfaceControls\Controls\DevExpress\UriValidator.cs" />
+    <Compile Include="SplashScreen\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen\RegistryAccess.cs" />
+    <Compile Include="ResourceManager\ResourceTransformer.cs" />
+    <Compile Include="ResourceManager\ResourceManagerSetter.Designer.cs" />
+    <Compile Include="ResourceManager\ResourceManagerSetterSerializer.cs" />
+    <Compile Include="ResourceManager\ResourcesResourceManager.cs" />
+    <Compile Include="ResourceManager\ResourcesResourceReader.cs" />
+    <Compile Include="ResourceManager\ResourcesResourceSet.cs" />
+    <Compile Include="ResourceManager\ResXResourceManager.cs" />
+    <Compile Include="Recovery\RecoveryConsoleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Path.Resources.Designer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="ModelViewController\AssistantView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModelViewController\Controller.cs" />
+    <Compile Include="ModelViewController\View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login\LoginPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Extensions\DevExpressExtensions.cs" />
+    <Compile Include="Culture\CultureManager.cs" />
+    <Compile Include="Assistant\AssistantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assistant\AssistantForm.resx" />
+    <EmbeddedResource Include="Login\LoginPanel.resx" />
+    <EmbeddedResource Include="ModelViewController\AssistantView.resx" />
+    <EmbeddedResource Include="ModelViewController\View.resx" />
+    <EmbeddedResource Include="PM\UserInterface\WindowsForms\dll.licenses" />
+    <EmbeddedResource Include="Properties\Path\Resources.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Recovery\RecoveryConsoleView.resx" />
+    <EmbeddedResource Include="SplashScreen\SplashScreen.resx" />
+    <EmbeddedResource Include="UserInterfaceControls\Controls\DevExpress\DevExpressButtonEdit.resx" />
+    <EmbeddedResource Include="UserInterfaceControls\Controls\DevExpress\DevExpressTextEdit.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

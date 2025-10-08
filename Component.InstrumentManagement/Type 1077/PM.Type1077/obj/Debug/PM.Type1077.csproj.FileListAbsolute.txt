@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077\obj\Debug\PM.Type1077.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077\obj\Debug\PathMedical.Type1077.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077\obj\Debug\PM.Type1077.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077\obj\Debug\PM.Type1077.csproj.CoreCompileInputs.cache

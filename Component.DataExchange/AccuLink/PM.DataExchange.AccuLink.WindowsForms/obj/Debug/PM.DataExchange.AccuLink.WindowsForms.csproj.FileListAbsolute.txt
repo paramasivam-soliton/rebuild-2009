@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.DataExchange\AccuLink\PM.DataExchange.AccuLink.WindowsForms\obj\Debug\PM.DataExchange.AccuLink.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\AccuLink\PM.DataExchange.AccuLink.WindowsForms\obj\Debug\PathMedical.DataExchange.AccuLink.WindowsForms.Configuration.AccuLinkDataExchangeConfigurationEditor.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\AccuLink\PM.DataExchange.AccuLink.WindowsForms\obj\Debug\PM.DataExchange.AccuLink.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\AccuLink\PM.DataExchange.AccuLink.WindowsForms\obj\Debug\PM.DataExchange.AccuLink.WindowsForms.csproj.CoreCompileInputs.cache

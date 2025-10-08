@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="columnLeftEarResult.Caption" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;splitterItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SplitterItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitterItem2.Name" xml:space="preserve">
+    <value>splitterItem2</value>
+  </data>
+  <data name="&gt;&gt;patientGridLayout.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;patientGridLayout.Name" xml:space="preserve">
+    <value>patientGridLayout</value>
+  </data>
+  <data name="bestAbrRight.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result ABR RightEar TestObject</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dpoaeBand.MinWidth" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="layoutGroupTestResults.CustomizationFormText" xml:space="preserve">
+    <value>Patient Test Results</value>
+  </data>
+  <data name="devExpressTextEdit1.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bestDpoaeLeft.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnDuration.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="riskIndicatorImage.Buttons" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjMsIFZlcnNpb249OS4zLjIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQEAAAAwRGV2RXhwcmVzcy5YdHJhRWRpdG9ycy5Db250cm9scy5CdXR0b25QcmVkZWZpbmVzAQAAAAd2YWx1ZV9fAAgCAAAA+////ws=</value>
+  </data>
+  <data name="bestAbrLeft.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result ABR LeftEar TestObject</value>
+  </data>
+  <data name="commentImage.GlyphAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdEZXZFeHByZXNzLkRhdGEudjkuMywgVmVyc2lvbj05LjMuMi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAB5EZXZFeHByZXNzLlV0aWxzLkhvcnpBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="columnPatientDateOfBirth.Caption" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="&gt;&gt;bestDpoaeRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bestDpoaeRight.Name" xml:space="preserve">
+    <value>bestDpoaeRight</value>
+  </data>
+  <data name="commentImage.Buttons" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjMsIFZlcnNpb249OS4zLjIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQEAAAAwRGV2RXhwcmVzcy5YdHJhRWRpdG9ycy5Db250cm9scy5CdXR0b25QcmVkZWZpbmVzAQAAAAd2YWx1ZV9fAAgCAAAA+////ws=</value>
+  </data>
+  <data name="detailViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOgDAAC8AgAACw==</value>
+  </data>
+  <data name="patientGrid.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAWAAAAAs=</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>item0</value>
+  </data>
+  <data name="columnTestTime.Caption" xml:space="preserve">
+    <value>Date and Time</value>
+  </data>
+  <data name="abrBand.Name" xml:space="preserve">
+    <value>abrBand</value>
+  </data>
+  <data name="bestAbrRight.Caption" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="bestTeoaeLeft.Caption" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="columnPatientDateOfBirth.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bestTeoaeRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bestTeoaeRight.Name" xml:space="preserve">
+    <value>bestTeoaeRight</value>
+  </data>
+  <data name="&gt;&gt;testGrid.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;columnPatientFullName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnPatientFullName.Name" xml:space="preserve">
+    <value>columnPatientFullName</value>
+  </data>
+  <data name="&gt;&gt;patientGridView.Name" xml:space="preserve">
+    <value>patientGridView</value>
+  </data>
+  <data name="&gt;&gt;patientGridView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridView, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutTestGrid.CustomizationFormText" xml:space="preserve">
+    <value>Patient Tests Overview</value>
+  </data>
+  <data name="riskIndicatorImage.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="teoaeBand.MinWidth" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="devExpressTextEdit1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAE8DAAAUAAAACw==</value>
+  </data>
+  <data name="layoutGroupTestResults.Text" xml:space="preserve">
+    <value>Test Results</value>
+  </data>
+  <data name="&gt;&gt;layoutDetailViewer.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutDetailViewer.Name" xml:space="preserve">
+    <value>layoutDetailViewer</value>
+  </data>
+  <data name="columnTestType.Caption" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;testGrid.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;layoutTestGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutTestGrid.Name" xml:space="preserve">
+    <value>layoutTestGrid</value>
+  </data>
+  <data name="columnTestType.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;columnExaminer.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnExaminer.Name" xml:space="preserve">
+    <value>columnExaminer</value>
+  </data>
+  <data name="&gt;&gt;bestAbrLeft.Name" xml:space="preserve">
+    <value>bestAbrLeft</value>
+  </data>
+  <data name="&gt;&gt;bestAbrLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutDetailViewer.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="columnTestType.Width" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="bestTeoaeRight.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result TEOAE RightEar TestObject</value>
+  </data>
+  <data name="overallTestResultImage.GlyphAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdEZXZFeHByZXNzLkRhdGEudjkuMywgVmVyc2lvbj05LjMuMi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAB5EZXZFeHByZXNzLlV0aWxzLkhvcnpBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="bestAbrLeft.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dpoaeBand.Caption" xml:space="preserve">
+    <value>DPOAE</value>
+  </data>
+  <data name="layoutDetailViewer.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="columnPatientMedicalRecordNumber.CustomizationCaption" xml:space="preserve">
+    <value>Patient ID / Hospital ID</value>
+  </data>
+  <data name="devExpressTextEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dpoaeBand.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dpoaeBand.Name" xml:space="preserve">
+    <value>dpoaeBand</value>
+  </data>
+  <data name="&gt;&gt;abrBand.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;abrBand.Name" xml:space="preserve">
+    <value>abrBand</value>
+  </data>
+  <data name="layoutTestGrid.Text" xml:space="preserve">
+    <value>Test Overview</value>
+  </data>
+  <data name="columnDuration.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;columnTestTime.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnTestTime.Name" xml:space="preserve">
+    <value>columnTestTime</value>
+  </data>
+  <data name="columnPatientHasComments.Width" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="columnTestTime.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientBand.Caption" xml:space="preserve">
+    <value>Patient Information</value>
+  </data>
+  <data name="&gt;&gt;testGridView.Name" xml:space="preserve">
+    <value>testGridView</value>
+  </data>
+  <data name="&gt;&gt;testGridView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="columnPatientHasRiskIndicator.CustomizationCaption" xml:space="preserve">
+    <value>Patient Risk Indicator</value>
+  </data>
+  <data name="abrBand.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="columnPatientMedicalRecordNumber.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="columnTestType.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnPatientMedicalRecordNumber.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;patientGrid.Name" xml:space="preserve">
+    <value>patientGrid</value>
+  </data>
+  <data name="&gt;&gt;patientGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bestDpoaeRight.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bestDpoaeRight.Caption" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="bestTeoaeLeft.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result TEOAE LeftEar TestObject</value>
+  </data>
+  <data name="columnExaminer.Caption" xml:space="preserve">
+    <value>Examiner</value>
+  </data>
+  <data name="patientBand.Width" type="System.Int32, mscorlib">
+    <value>629</value>
+  </data>
+  <data name="patientGridLayout.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="columnLeftEarResult.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bestTeoaeLeft.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;layoutGroupTestResults.Name" xml:space="preserve">
+    <value>layoutGroupTestResults</value>
+  </data>
+  <data name="&gt;&gt;layoutGroupTestResults.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="teoaeBand.Caption" xml:space="preserve">
+    <value>TEOAE</value>
+  </data>
+  <data name="&gt;&gt;detailViewer.Name" xml:space="preserve">
+    <value>detailViewer</value>
+  </data>
+  <data name="&gt;&gt;detailViewer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnRightEarResult.Name" xml:space="preserve">
+    <value>columnRightEarResult</value>
+  </data>
+  <data name="&gt;&gt;columnRightEarResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bestDpoaeLeft.Name" xml:space="preserve">
+    <value>bestDpoaeLeft</value>
+  </data>
+  <data name="&gt;&gt;bestDpoaeLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;patientGrid.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="layoutControl1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOgDAAC8AgAACw==</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;columnPatientHasRiskIndicator.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnPatientHasRiskIndicator.Name" xml:space="preserve">
+    <value>columnPatientHasRiskIndicator</value>
+  </data>
+  <data name="&gt;&gt;detailViewer.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="patientGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="bestAbrLeft.Caption" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="columnLeftEarResult.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;patientGrid.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="columnPatientHasComments.Caption" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="testGrid.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAYAAAAbwEAAAs=</value>
+  </data>
+  <data name="columnPatientDateOfBirth.CustomizationCaption" xml:space="preserve">
+    <value>Patient Date of Birth</value>
+  </data>
+  <data name="columnDuration.Caption" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="&gt;&gt;testResultImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;testResultImage.Name" xml:space="preserve">
+    <value>testResultImage</value>
+  </data>
+  <data name="overallTestResultImage.Buttons" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjMsIFZlcnNpb249OS4zLjIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQEAAAAwRGV2RXhwcmVzcy5YdHJhRWRpdG9ycy5Db250cm9scy5CdXR0b25QcmVkZWZpbmVzAQAAAAd2YWx1ZV9fAAgCAAAA+////ws=</value>
+  </data>
+  <data name="columnPatientDateOfBirth.Width" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="columnPatientHasComments.CustomizationCaption" xml:space="preserve">
+    <value>Patient Comments</value>
+  </data>
+  <data name="abrBand.Caption" xml:space="preserve">
+    <value>ABR</value>
+  </data>
+  <data name="bestTeoaeLeft.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="splitterItem2.CustomizationFormText" xml:space="preserve">
+    <value>splitterItem2</value>
+  </data>
+  <data name="&gt;&gt;columnPatientDateOfBirth.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnPatientDateOfBirth.Name" xml:space="preserve">
+    <value>columnPatientDateOfBirth</value>
+  </data>
+  <data name="bestDpoaeLeft.Caption" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;devExpressTextEdit1.Type" xml:space="preserve">
+    <value>PathMedical.UserInterface.WindowsForms.UserInterfaceControls.Controls.DevExpress.DevExpressTextEdit, PM.UserInterface.WindowsForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;devExpressTextEdit1.Name" xml:space="preserve">
+    <value>devExpressTextEdit1</value>
+  </data>
+  <data name="bestDpoaeLeft.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;detailViewer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="columnTestName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bestAbrRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bestAbrRight.Name" xml:space="preserve">
+    <value>bestAbrRight</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="bestDpoaeRight.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result DPOAE RightEar TestObject</value>
+  </data>
+  <data name="columnPatientHasRiskIndicator.Caption" xml:space="preserve">
+    <value>Risk</value>
+  </data>
+  <data name="columnRightEarResult.Caption" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="splitterItem1.CustomizationFormText" xml:space="preserve">
+    <value>splitterItem1</value>
+  </data>
+  <data name="columnPatientFullName.Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="columnPatientFullName.CustomizationCaption" xml:space="preserve">
+    <value>Patient Full Name</value>
+  </data>
+  <data name="&gt;&gt;commentImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;commentImage.Name" xml:space="preserve">
+    <value>commentImage</value>
+  </data>
+  <data name="columnExaminer.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="columnPatientFullName.Width" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="columnExaminer.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnPatientHasRiskIndicator.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnRightEarResult.Width" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="columnRightEarResult.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="bestDpoaeRight.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="testGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="columnRightEarResult.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bestDpoaeLeft.CustomizationCaption" xml:space="preserve">
+    <value>Overall Result DPOAE LeftEar TestObject</value>
+  </data>
+  <data name="bestAbrRight.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="columnTestName.Caption" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="&gt;&gt;testGrid.Name" xml:space="preserve">
+    <value>testGrid</value>
+  </data>
+  <data name="&gt;&gt;testGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;advancedSearchGroupLayout.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;advancedSearchGroupLayout.Name" xml:space="preserve">
+    <value>advancedSearchGroupLayout</value>
+  </data>
+  <data name="&gt;&gt;bestTeoaeLeft.Name" xml:space="preserve">
+    <value>bestTeoaeLeft</value>
+  </data>
+  <data name="&gt;&gt;bestTeoaeLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="patientGrid.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANADAADtAAAACw==</value>
+  </data>
+  <data name="bestTeoaeRight.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="testResultImage.GlyphAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdEZXZFeHByZXNzLkRhdGEudjkuMywgVmVyc2lvbj05LjMuMi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAB5EZXZFeHByZXNzLlV0aWxzLkhvcnpBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="testGrid.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPsBAAA1AQAACw==</value>
+  </data>
+  <data name="detailViewer.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMBAABhAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PatientTestBrowser</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>PathMedical.UserInterface.WindowsForms.ModelViewController.View, PM.UserInterface.WindowsForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="patientGrid.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;patientBand.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;patientBand.Name" xml:space="preserve">
+    <value>patientBand</value>
+  </data>
+  <data name="columnPatientMedicalRecordNumber.Caption" xml:space="preserve">
+    <value>Patient ID / Hospital ID</value>
+  </data>
+  <data name="&gt;&gt;teoaeBand.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teoaeBand.Name" xml:space="preserve">
+    <value>teoaeBand</value>
+  </data>
+  <data name="columnLeftEarResult.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="columnTestName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="advancedSearchGroupLayout.CustomizationFormText" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="patientGridLayout.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;devExpressTextEdit1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="bestAbrRight.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientBand.Name" xml:space="preserve">
+    <value>patientBand</value>
+  </data>
+  <data name="advancedSearchGroupLayout.Text" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="dpoaeBand.Name" xml:space="preserve">
+    <value>dpoaeBand</value>
+  </data>
+  <data name="devExpressTextEdit1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB9AAAAMAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;devExpressTextEdit1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="abrBand.MinWidth" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="riskIndicatorImage.GlyphAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdEZXZFeHByZXNzLkRhdGEudjkuMywgVmVyc2lvbj05LjMuMi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAB5EZXZFeHByZXNzLlV0aWxzLkhvcnpBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="detailViewer.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAApAgAATwEAAAs=</value>
+  </data>
+  <data name="commentImage.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bestTeoaeRight.Caption" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="columnDuration.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="columnPatientHasComments.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;columnTestName.Name" xml:space="preserve">
+    <value>columnTestName</value>
+  </data>
+  <data name="&gt;&gt;columnTestName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;overallTestResultImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;overallTestResultImage.Name" xml:space="preserve">
+    <value>overallTestResultImage</value>
+  </data>
+  <data name="dpoaeBand.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="columnPatientHasRiskIndicator.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="teoaeBand.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="columnTestTime.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;columnTestType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnTestType.Name" xml:space="preserve">
+    <value>columnTestType</value>
+  </data>
+  <data name="&gt;&gt;columnLeftEarResult.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnLeftEarResult.Name" xml:space="preserve">
+    <value>columnLeftEarResult</value>
+  </data>
+  <data name="columnPatientFullName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;columnPatientMedicalRecordNumber.Name" xml:space="preserve">
+    <value>columnPatientMedicalRecordNumber</value>
+  </data>
+  <data name="&gt;&gt;columnPatientMedicalRecordNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="bestAbrLeft.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;riskIndicatorImage.Name" xml:space="preserve">
+    <value>riskIndicatorImage</value>
+  </data>
+  <data name="&gt;&gt;riskIndicatorImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnPatientHasComments.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;columnPatientHasComments.Name" xml:space="preserve">
+    <value>columnPatientHasComments</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="columnTestTime.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="columnExaminer.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="columnTestName.Width" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;splitterItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SplitterItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitterItem1.Name" xml:space="preserve">
+    <value>splitterItem1</value>
+  </data>
+  <data name="&gt;&gt;columnDuration.Name" xml:space="preserve">
+    <value>columnDuration</value>
+  </data>
+  <data name="&gt;&gt;columnDuration.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="devExpressTextEdit1.Caption" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bestTeoaeRight.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teoaeBand.Name" xml:space="preserve">
+    <value>teoaeBand</value>
+  </data>
+</root>

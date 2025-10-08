@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.UserProfileManagement.PrivateUserSettings.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D48DDB7-20B6-415C-A7C7-24B79F1D52A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.UserProfileManagement.PrivateUserSettings</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.UserProfileManagement.PrivateUserSettings</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserInterface.WindowsForms">
+      <HintPath>lib\PM.UserInterface.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement">
+      <HintPath>lib\PM.UserProfileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement.Viewer.WindowsForms">
+      <HintPath>lib\PM.UserProfileManagement.Viewer.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrivateUserSettingsComponent.cs" />
+    <Compile Include="Viewer\PrivateUserSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer\PrivateUserSettingsComponentModule.cs" />
+    <Compile Include="Viewer\PrivateUserSettingsController.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PM\UserProfileManagement\PrivateUserSettings\dll.licenses" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Viewer\PrivateUserSettings.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

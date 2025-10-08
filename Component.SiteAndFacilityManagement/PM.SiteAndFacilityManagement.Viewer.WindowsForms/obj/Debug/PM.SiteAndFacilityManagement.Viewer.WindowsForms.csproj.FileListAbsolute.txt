@@ -1,0 +1,8 @@
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PM.SiteAndFacilityManagement.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PathMedical.SiteAndFacilityManagement.Viewer.WindowsForms.Configuration.ConfigurationEditor.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PathMedical.SiteAndFacilityManagement.Viewer.WindowsForms.FacilityBrowser.FacilityMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PathMedical.SiteAndFacilityManagement.Viewer.WindowsForms.LocationTypeBrowser.LocationTypeMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PathMedical.SiteAndFacilityManagement.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PathMedical.SiteAndFacilityManagement.Viewer.WindowsForms.SiteBrowser.SiteMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PM.SiteAndFacilityManagement.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement.Viewer.WindowsForms\obj\Debug\PM.SiteAndFacilityManagement.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

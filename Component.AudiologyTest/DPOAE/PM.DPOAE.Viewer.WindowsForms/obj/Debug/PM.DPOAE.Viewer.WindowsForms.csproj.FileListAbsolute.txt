@@ -1,0 +1,7 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PM.DPOAE.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PathMedical.DPOAE.Viewer.WindowsForms.Configurator.ConfigurationEditorDpoaeMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PathMedical.DPOAE.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PathMedical.DPOAE.Viewer.WindowsForms.Report.DpoaeDetailSubSubReport.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PathMedical.DPOAE.Viewer.WindowsForms.Viewer.TestViewer.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PM.DPOAE.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE.Viewer.WindowsForms\obj\Debug\PM.DPOAE.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

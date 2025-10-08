@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE\obj\Debug\PM.TEOAE.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE\obj\Debug\PathMedical.TEOAE.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE\obj\Debug\PM.TEOAE.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE\obj\Debug\PM.TEOAE.csproj.CoreCompileInputs.cache

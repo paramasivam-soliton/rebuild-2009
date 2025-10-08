@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.DeviceCommunication.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{806AAA89-4743-4913-B089-D80E8065DFA3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.DeviceCommunication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.DeviceCommunication</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Service\ServiceState.cs" />
+    <Compile Include="Service\DeviceServiceStateEventArgs.cs" />
+    <Compile Include="Service\DeviceServiceException.cs" />
+    <Compile Include="DataPackage\DataPackageAvailableEventArgs.cs" />
+    <Compile Include="DataPackage\ObjectDataPackage.cs" />
+    <Compile Include="Command\CommandManagerException.cs" />
+    <Compile Include="Command\CommandStateEventArgs.cs" />
+    <Compile Include="Command\CommandState.cs" />
+    <Compile Include="Channel\ControlType.cs" />
+    <Compile Include="Channel\SerialChannelControlEventArgs.cs" />
+    <Compile Include="Channel\SerialCommunicationChannel.cs" />
+    <Compile Include="Channel\CommunicationSpeedType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

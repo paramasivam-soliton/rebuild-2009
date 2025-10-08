@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="Site and Facility Management" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\RecordDescriptionSet.XSD">
+  
+  <RecordDescriptions>
+
+    <!-- Site -->
+    <RecordDescription Identifier="Site">
+      <ColumnDescription Identifier="SiteId" Datatype="Guid"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Description" Datatype="String"/>
+      <ColumnDescription Identifier="Inactive" Datatype="DateTime"/>
+      <ColumnDescription Identifier="Code" Datatype="String"/>
+    </RecordDescription>
+
+    <!-- Facility -->
+    <RecordDescription Identifier="Facility">
+      <ColumnDescription Identifier="FacilityId" Datatype="Guid"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Description" Datatype="String"/>
+      <ColumnDescription Identifier="Code" Datatype="String"/>
+      <ComplexColumnDescription Identifier="Locations" RecordDescription="Location" IsArray="True"/>
+    </RecordDescription>
+
+    <!-- Locations -->
+    <RecordDescription Identifier="Location">
+      <ColumnDescription Identifier="LocationId" Datatype="Guid"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Description" Datatype="String"/>
+      <ColumnDescription Identifier="Code" Datatype="String"/>
+    </RecordDescription>
+  
+    </RecordDescriptions>
+
+</RecordDescriptionSet>    

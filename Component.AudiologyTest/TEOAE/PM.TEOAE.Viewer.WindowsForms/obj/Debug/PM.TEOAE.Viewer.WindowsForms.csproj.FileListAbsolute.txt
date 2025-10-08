@@ -1,0 +1,6 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PM.TEOAE.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PathMedical.TEOAE.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PathMedical.TEOAE.Viewer.WindowsForms.Report.TeoaeDetailSubSubReport.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PathMedical.TEOAE.Viewer.WindowsForms.Viewer.TestViewer.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PM.TEOAE.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\TEOAE\PM.TEOAE.Viewer.WindowsForms\obj\Debug\PM.TEOAE.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

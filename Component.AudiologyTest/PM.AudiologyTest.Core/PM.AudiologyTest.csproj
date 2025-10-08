@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.AudiologyTest.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFC25123-D284-453C-B65E-3680F819FE29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.AudiologyTest</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.AudiologyTest</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.InstrumentManagement.Core">
+      <HintPath>lib\PM.InstrumentManagement.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement">
+      <HintPath>lib\PM.UserProfileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudiologyTestManager.cs" />
+    <Compile Include="ComponentResourceManagement.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TestObject.cs" />
+    <Compile Include="Resources\AudiologyTestResult.cs" />
+    <Compile Include="Resources\T1077AudiologyTestResult.cs" />
+    <Compile Include="Resources\AudiologyTestProcedure.cs" />
+    <Compile Include="Resources\TrackingResults.cs" />
+    <Compile Include="Resources\TestType.cs" />
+    <Compile Include="Resources\PresetCategoryType.cs" />
+    <Compile Include="Resources\ReportFormat.cs" />
+    <Compile Include="ITestDetailSubReport.cs" />
+    <Compile Include="ITestInformation.cs" />
+    <Compile Include="ITestService.cs" />
+    <Compile Include="ITestServicePreset.cs" />
+    <Compile Include="OverallTestInformation.cs" />
+    <Compile Include="Resources\PresetRegistry.cs" />
+    <Compile Include="TestDetailPluginBase.cs" />
+    <Compile Include="AudiologyTestInformation.cs" />
+    <Compile Include="TestResultImageBuilder.cs" />
+    <Compile Include="TestServiceRegistry.cs" />
+    <Compile Include="DataAccessLayer\AudiologyTestInformationAdapter.cs" />
+    <Compile Include="DataAccessLayer\OverallTestInformationAdapter.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

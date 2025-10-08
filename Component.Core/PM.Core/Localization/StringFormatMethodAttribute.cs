@@ -1,0 +1,23 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: PathMedical.Localization.StringFormatMethodAttribute
+// Assembly: PM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: CB0027D9-775D-477D-8A47-69E286781E10
+// Assembly location: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.Core.dll
+
+using System;
+
+#nullable disable
+namespace PathMedical.Localization;
+
+[AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
+public sealed class StringFormatMethodAttribute : Attribute
+{
+  private readonly string myFormatParameterName;
+
+  public StringFormatMethodAttribute(string formatParameterName)
+  {
+    this.myFormatParameterName = formatParameterName;
+  }
+
+  public string FormatParameterName => this.myFormatParameterName;
+}

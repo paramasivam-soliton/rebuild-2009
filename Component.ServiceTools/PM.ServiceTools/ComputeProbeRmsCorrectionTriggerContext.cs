@@ -1,0 +1,35 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: PathMedical.ServiceTools.Automaton.ComputeProbeRmsCorrectionTriggerContext
+// Assembly: PM.ServiceTools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: A6893656-9FB8-40DB-89B4-7E4443C86B76
+// Assembly location: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.ServiceTools.dll
+
+using PathMedical.Automaton;
+using PathMedical.InstrumentManagement;
+using PathMedical.Type1077;
+
+#nullable disable
+namespace PathMedical.ServiceTools.Automaton;
+
+public class ComputeProbeRmsCorrectionTriggerContext : TriggerContext
+{
+  public Instrument Instrument { get; protected set; }
+
+  public int Frequency { get; protected set; }
+
+  public double FrequencySpeakerCorrectionValue { get; protected set; }
+
+  public Type1077ProbeInformation Probe { get; protected set; }
+
+  public ComputeProbeRmsCorrectionTriggerContext(
+    Instrument instrument,
+    Type1077ProbeInformation probe,
+    int frequency,
+    double frequencySpeakerCorrectionValue)
+  {
+    this.Instrument = instrument;
+    this.Probe = probe;
+    this.Frequency = frequency;
+    this.FrequencySpeakerCorrectionValue = frequencySpeakerCorrectionValue;
+  }
+}

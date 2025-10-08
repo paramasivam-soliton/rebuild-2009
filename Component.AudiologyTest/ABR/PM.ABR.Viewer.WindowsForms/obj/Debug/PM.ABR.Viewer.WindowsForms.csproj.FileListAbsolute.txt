@@ -1,0 +1,7 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PM.ABR.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PathMedical.ABR.Viewer.WindowsForms.Configurator.ConfigurationEditorAbrMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PathMedical.ABR.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PathMedical.ABR.Viewer.WindowsForms.Report.AbrDetailSubSubReport.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PathMedical.ABR.Viewer.WindowsForms.Viewer.TestViewer.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PM.ABR.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Viewer.WindowsForms\obj\Debug\PM.ABR.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

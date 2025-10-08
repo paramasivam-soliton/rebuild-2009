@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.DataExchange.eSP.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C63288FB-1F9E-4F24-871F-6061F68EC9E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.DataExchange.eSP</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.DataExchange.eSP</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PM.AudiologyTest" />
+    <Reference Include="PM.Core" />
+    <Reference Include="PM.InstrumentManagement.Core" />
+    <Reference Include="PM.PatientManagement" />
+    <Reference Include="PM.SiteAndFacilityManagement">
+      <HintPath>lib\PM.SiteAndFacilityManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EspConfiguration.cs" />
+    <Compile Include="EspConfigurationManager.cs" />
+    <Compile Include="EspManager.cs" />
+    <Compile Include="EspTestResult.cs" />
+    <Compile Include="Web References\EspWebService\Reference.cs" />
+    <Compile Include="Web References\EspWebService\1Reference.cs" />
+    <Compile Include="Web References\EspWebService\2Reference.cs" />
+    <Compile Include="Web References\EspWebService\3Reference.cs" />
+    <Compile Include="Web References\EspWebService\4Reference.cs" />
+    <Compile Include="Web References\EspWebService\downloadSyncDataCompletedEventHandler.cs" />
+    <Compile Include="Web References\EspWebService\5Reference.cs" />
+    <Compile Include="Web References\EspWebService\uploadDataCompletedEventHandler.cs" />
+    <Compile Include="Web References\EspWebService\6Reference.cs" />
+    <Compile Include="Web References\EspWebService\validateEquipmentCompletedEventHandler.cs" />
+    <Compile Include="Web References\EspWebService\7Reference.cs" />
+    <Compile Include="Service\DeviceDetails.cs" />
+    <Compile Include="Service\DeviceUsers.cs" />
+    <Compile Include="Service\eSPAcknowledgement.cs" />
+    <Compile Include="Service\eSPSyncAllRequest.cs" />
+    <Compile Include="Service\eSPSyncAllResponse.cs" />
+    <Compile Include="Service\RequestResult.cs" />
+    <Compile Include="Service\eSPTestResult.cs" />
+    <Compile Include="Service\1eSPTestResult.cs" />
+    <Compile Include="Service\2eSPTestResult.cs" />
+    <Compile Include="Service\3eSPTestResult.cs" />
+    <Compile Include="Service\EarType.cs" />
+    <Compile Include="Service\TestTypeType.cs" />
+    <Compile Include="Service\TestTypeTestOutcome.cs" />
+    <Compile Include="Service\4eSPTestResult.cs" />
+    <Compile Include="Service\5eSPTestResult.cs" />
+    <Compile Include="Service\6eSPTestResult.cs" />
+    <Compile Include="Service\ConsentType.cs" />
+    <Compile Include="Service\YesNoType.cs" />
+    <Compile Include="Service\7eSPTestResult.cs" />
+    <Compile Include="Service\FacilityLocationType.cs" />
+    <Compile Include="Service\FacilityDetails.cs" />
+    <Compile Include="Service\RiskFactor.cs" />
+    <Compile Include="Service\RiskFactors.cs" />
+    <Compile Include="Service\ScreenerType.cs" />
+    <Compile Include="Service\ScreeningDevices.cs" />
+    <Compile Include="Service\SiteFacilityData.cs" />
+    <Compile Include="Service\UserDetails.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Automaton\ImportConfigurationCommand.cs" />
+    <Compile Include="Automaton\ExportCommand.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataExchange\PluginDataDescription.xml" />
+    <EmbeddedResource Include="DataExchange\PluginDataMapping.xml" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Service\eSPSyncAllRequest.xsd" />
+    <EmbeddedResource Include="Service\eSPSyncAllResponse.xsd" />
+    <EmbeddedResource Include="Service\TestResult.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

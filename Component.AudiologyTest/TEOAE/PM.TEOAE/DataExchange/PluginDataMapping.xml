@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataExchangeMaps>
+  <!-- 
+  *****
+  ***  Import Mapping 
+  *****
+  -->
+  <DataExchangeMap Name="TEOAE Screening Import" Identifier="TEOAE" Type="Import" FromDataSetIdentifier="Type1077" ToDataSetIdentifier="PM">
+    <RecordMaps>
+      <!-- TEOAE Tests -->
+      <RecordMap Identifier="TEOAE" FromRecordDescriptionIdentifier="33006" ToRecordDescriptionIdentifier="TEOAE.TestInformation">
+        <!-- Common Header -->
+        <ColumnMapItem FromColumn="24581" ToColumn="Id"/>
+        <ColumnMapItem FromColumn="24582" ToColumn="PatientId"/>
+        <ColumnMapItem FromColumn="24583" ToColumn="UserAccountId"/>
+        <ColumnMapItem FromColumn="24584" ToColumn="FirmwareVersion"/>
+
+        <!-- Common Test Information -->
+        <ColumnMapItem FromColumn="32769" ToColumn="Version"/>
+        <ColumnMapItem FromColumn="32771" ToColumn="Ear"/>
+        <ColumnMapItem FromColumn="32773" ToColumn="ProbeType"/>
+        <ColumnMapItem FromColumn="32774" ToColumn="ProbeSerialNumber"/>
+        <ColumnMapItem FromColumn="32775" ToColumn="TestTimeStamp"/>
+        <ColumnMapItem FromColumn="32776" ToColumn="InstrumentSerialNumber"/>
+        <ColumnMapItem FromColumn="32777" ToColumn="ProbeCounter"/>
+        <ColumnMapItem FromColumn="20496" ToColumn="ProbeCalibrationDate"/>
+        <ColumnMapItem FromColumn="32778" ToColumn="Duration"/>
+        <ColumnMapItem FromColumn="32779" ToColumn="TestName"/>
+        <ColumnMapItem FromColumn="32782" ToColumn="LocationId"/>
+        <ColumnMapItem FromColumn="32783" ToColumn="FacilityId"/>
+
+        <!-- Details -->
+        <ColumnMapItem FromColumn="33025" ToColumn="TestResult"/>
+        <ColumnMapItem FromColumn="33026" ToColumn="Version"/>
+        <ColumnMapItem FromColumn="33027" ToColumn="Progress"/>
+        <ColumnMapItem FromColumn="33028" ToColumn="Noise"/>
+        <ColumnMapItem FromColumn="33029" ToColumn="Teoae"/>
+        <ColumnMapItem FromColumn="33030" ToColumn="GraphScale"/>
+        <ColumnMapItem FromColumn="33031" ToColumn="Graph"/>
+        <ColumnMapItem FromColumn="33032" ToColumn="Frames"/>
+        <ColumnMapItem FromColumn="33033" ToColumn="Energy"/>
+        <ColumnMapItem FromColumn="33039" ToColumn="PeakIndex"/>
+        <ColumnMapItem FromColumn="33040" ToColumn="Artefact"/>
+        <ColumnMapItem FromColumn="33041" ToColumn="Stability"/>
+
+        <ColumnMapItem FromColumn="33034" ToColumn="CalibrationFrames"/>
+        <ColumnMapItem FromColumn="33035" ToColumn="CalibrationValues"/>
+        <ColumnMapItem FromColumn="33036" ToColumn="CalibrationGraphScale"/>
+        <ColumnMapItem FromColumn="33037" ToColumn="CalibrationGraph"/>
+        <ColumnMapItem FromColumn="33038" ToColumn="FrequencySamplingRate"/>
+      </RecordMap>
+    </RecordMaps>  
+  </DataExchangeMap>
+  
+  <!-- 
+  *****
+  ***  Export Mapping 
+  *****
+  -->
+  <DataExchangeMap Name="TEOAE Screening Export" Identifier="TEOAE" Type="Export" FromDataSetIdentifier="PM" ToDataSetIdentifier="Type1077">
+
+    <RecordMaps>
+
+    </RecordMaps>
+
+  </DataExchangeMap>
+</DataExchangeMaps>      

@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Core\obj\Debug\PM.ABR.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Core\obj\Debug\PathMedical.ABR.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Core\obj\Debug\PM.ABR.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\ABR\PM.ABR.Core\obj\Debug\PM.ABR.csproj.CoreCompileInputs.cache

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecordDescriptionSet Name="TEOAE Screening"
+                 Identifier="Type1077"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <RecordDescriptions>
+
+    <RecordDescription Identifier="CommonHeader" Description="Common Header">
+      <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+      <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+      <ColumnDescription Description="DataBlockLength" Identifier="24578" Datatype="UInt16"/>
+      <ColumnDescription Description="IsObsolete" Identifier="24579" Datatype="UInt16"/>
+      <ColumnDescription Description="PrimaryRecordId" Identifier="24581" Datatype="Guid"/>
+      <ColumnDescription Description="PatientId" Identifier="24582" Datatype="Guid"/>
+      <ColumnDescription Description="UserId" Identifier="24583" Datatype="Guid"/>
+      <ColumnDescription Description="FirmwareVersion" Identifier="24584" Datatype="UInt16"/>
+      <ColumnDescription Description="CreationDate" Identifier="24585" Datatype="DateTime"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="CommonTestHeader" Description="Common Test Header">
+      <ColumnDescription Description="TestModuleVersionNumber" Identifier="32769" Datatype="UInt16"/>
+      <ColumnDescription Description="TestedEar" Identifier="32771" Datatype="UInt16"/>
+      <ColumnDescription Description="AddiontionalTestPatientId" Identifier="32772" Datatype="Guid"/>
+      <ColumnDescription Description="ProbeType" Identifier="32773" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeSerialNumber" Identifier="32774" Datatype="UInt32"/>
+      <ColumnDescription Description="TestTimeStamp" Identifier="32775" Datatype="DateTime"/>
+      <ColumnDescription Description="InstrumentSerialNumber" Identifier="32776" Datatype="UInt32"/>
+      <ColumnDescription Description="ProbeTestCounter" Identifier="32777" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeCalibrationDate" Identifier="20496" Datatype="Date"/>
+      <ColumnDescription Description="TestDuration" Identifier="32778" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeStatus" Identifier="32780" Datatype="UInt16"/>
+      <ColumnDescription Description="TestName" Identifier="32779" Datatype="String"/>
+      <ColumnDescription Description="LocationId" Identifier="32782" Datatype="Guid"/>
+      <ColumnDescription Description="FacilityId" Identifier="32783" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="33006" Description="TEOAE">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <IncludeRecordDescription Identifier="CommonTestHeader"/>
+      <ColumnDescription Description="TestResult" Identifier="33025" Datatype="UInt16"/>
+      <ColumnDescription Description="Version" Identifier="33026" Datatype="UInt16"/>
+      <ColumnDescription Description="Progress" Identifier="33027" Datatype="UInt16"/>
+      <ColumnDescription Description="Noise" Identifier="33028" Datatype="UInt16"/>
+      <ColumnDescription Description="TEOAE" Identifier="33029" Datatype="UInt16"/>
+      <ColumnDescription Description="GraphScale" Identifier="33030" Datatype="Float"/>
+      <ColumnDescription Description="Graph" Identifier="33031" IsArray="True" Datatype="Int8"/>
+      <ColumnDescription Description="Frames" Identifier="33032" Datatype="UInt16"/>
+      <ColumnDescription Description="Energy" Identifier="33033" Datatype="Float"/>
+      <ColumnDescription Description="CalibrationFrames" Identifier="33034" Datatype="UInt16"/>
+      <ColumnDescription Description="CalibrationValues" Identifier="33035" Datatype="UInt16"/>
+      <ColumnDescription Description="CalibrationGraphScale" Identifier="33036" Datatype="Float"/>
+      <ColumnDescription Description="CalibrationGraph" Identifier="33037" IsArray="True" Datatype="Int8"/>
+      <ColumnDescription Description="FrequencySamplingRate" Identifier="33038" Datatype="UInt16"/>
+      <ColumnDescription Description="PeakIndex" Identifier="33039" IsArray="True" Datatype="UInt8"/>
+      <ColumnDescription Description="Artefact" Identifier="33040" Datatype="UInt16"/>
+      <ColumnDescription Description="Stability" Identifier="33041" Datatype="UInt16"/>
+    </RecordDescription>
+    
+  </RecordDescriptions>
+</RecordDescriptionSet>

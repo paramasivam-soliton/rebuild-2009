@@ -1,0 +1,9 @@
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PM.ServiceTools.Viewer.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.DeviceSelectorAsistant.DeviceSelectorAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.FirmwareUpdateAssistant.FirmwareUpdateAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.FirmwareUploadAssistant.FirmwareUploadAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.ProbeConfigurator.ProbeConfiguratorEditor.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.ProbeSelectionAssistant.ProbeSelectorAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PathMedical.ServiceTools.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PM.ServiceTools.Viewer.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.ServiceTools\PM.ServiceTools.Viewer\obj\Debug\PM.ServiceTools.Viewer.csproj.CoreCompileInputs.cache

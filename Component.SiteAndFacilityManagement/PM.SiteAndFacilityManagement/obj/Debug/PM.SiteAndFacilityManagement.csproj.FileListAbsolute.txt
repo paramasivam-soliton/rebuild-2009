@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement\obj\Debug\PM.SiteAndFacilityManagement.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement\obj\Debug\PathMedical.SiteAndFacilityManagement.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement\obj\Debug\PM.SiteAndFacilityManagement.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.SiteAndFacilityManagement\PM.SiteAndFacilityManagement\obj\Debug\PM.SiteAndFacilityManagement.csproj.CoreCompileInputs.cache

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.Type1077.Communicator.WindowsForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{104908DE-F0F7-4C87-BF1A-AABC81799BAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.Type1077.Communicator.WindowsForms</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.Type1077.Communicator.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v9.3">
+      <HintPath>lib\DevExpress.XtraWizard.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core" />
+    <Reference Include="PM.InstrumentManagement.Core" />
+    <Reference Include="PM.Type1077">
+      <HintPath>lib\PM.Type1077.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserInterface.WindowsForms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Type1077CommunicatorComponent.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="FirmwareImageImport\FirmwareImportAssistant.cs" />
+    <Compile Include="FirmwareImageImport\FirmwareImportAssistantComponentModule.cs" />
+    <Compile Include="FirmwareImageImport\FirmwareImportController.cs" />
+    <Compile Include="DataUpload\DataUploadComponentModule.cs" />
+    <Compile Include="DataUpload\DataUploadController.cs" />
+    <Compile Include="DataUpload\UploadAssistant.cs" />
+    <Compile Include="DataDownload\DataDownloadComponentModule.cs" />
+    <Compile Include="DataDownload\DataDownloadController.cs" />
+    <Compile Include="DataDownload\DownloadAssistant.cs" />
+    <Compile Include="ConfigurationSynchronization\ConfigurationSynchronizationComponentModule.cs" />
+    <Compile Include="ConfigurationSynchronization\ConfigurationSynchronizationController.cs" />
+    <Compile Include="ConfigurationSynchronization\ConfigurationSynchronizationAssistant.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConfigurationSynchronization\ConfigurationSynchronizationAssistant.resx" />
+    <EmbeddedResource Include="DataDownload\DownloadAssistant.resx" />
+    <EmbeddedResource Include="DataUpload\UploadAssistant.resx" />
+    <EmbeddedResource Include="FirmwareImageImport\FirmwareImportAssistant.resx" />
+    <EmbeddedResource Include="PM\Type1077\Communicator\WindowsForms\dll.licenses" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

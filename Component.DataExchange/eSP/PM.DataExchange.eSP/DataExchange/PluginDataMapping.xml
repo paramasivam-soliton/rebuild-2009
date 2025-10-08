@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataExchangeMaps>
+  <!-- Import Mapping -->
+  <DataExchangeMap Name="ESP" Identifier="ESP" Type="Import" FromDataSetIdentifier="ESP" ToDataSetIdentifier="PM">
+    <RecordMaps>
+
+      <!-- Users -->
+      <RecordMap Identifier="EspScreenerType" FromRecordDescriptionIdentifier="ScreenerType" ToRecordDescriptionIdentifier="User">
+        <ColumnMapItem FromColumn="ScreenerId" ToColumn="LoginName"/>
+        <ColumnMapItem FromColumn="EspUserID" ToColumn="LoginId"/>
+        <ColumnMapItem FromColumn="Password" ToColumn="Password"/>
+        <ColumnMapItem FromColumn="UserProfileId" ToColumn="ProfileId"/>
+      </RecordMap>
+
+      <!-- Instruments -->
+      <RecordMap Identifier="DeviceDetails" FromRecordDescriptionIdentifier="DeviceDetails" ToRecordDescriptionIdentifier="Instrument">
+        <LiteralMapItem FromValue="BAC087B8-331E-4cd3-8F6E-12A9C13E7E61" ToColumn="InstrumentTypeSignature"/>
+        <ColumnMapItem FromColumn="EspDeviceCode" ToColumn="Code"/>
+        <ColumnMapItem FromColumn="DeviceName" ToColumn="Name"/>
+        <ColumnMapItem FromColumn="SerialNumber" ToColumn="SerialNumber"/>
+      </RecordMap>
+
+    </RecordMaps>
+
+  </DataExchangeMap>
+</DataExchangeMaps>

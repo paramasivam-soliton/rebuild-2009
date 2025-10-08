@@ -1,0 +1,5 @@
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Viewer.WindowsForms\obj\Debug\PM.InstrumentManagement.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Viewer.WindowsForms\obj\Debug\PathMedical.InstrumentManagement.Viewer.WindowsForms.InstrumentBrowser.InstrumentMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Viewer.WindowsForms\obj\Debug\PathMedical.InstrumentManagement.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Viewer.WindowsForms\obj\Debug\PM.InstrumentManagement.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Viewer.WindowsForms\obj\Debug\PM.InstrumentManagement.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

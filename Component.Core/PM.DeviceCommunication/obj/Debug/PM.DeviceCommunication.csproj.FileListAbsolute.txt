@@ -1,0 +1,2 @@
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DeviceCommunication\obj\Debug\PM.DeviceCommunication.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DeviceCommunication\obj\Debug\PM.DeviceCommunication.csproj.CoreCompileInputs.cache

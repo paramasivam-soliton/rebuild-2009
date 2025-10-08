@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.Core.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC302793-0C52-4E45-8A3A-A0D82E610A3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MedicalRecordNumber\MedicalRecordNumberChecker.cs" />
+    <Compile Include="MedicalRecordTypes.cs" />
+    <Compile Include="ComponentResourceManagement.cs" />
+    <Compile Include="WatchDog\WatchDogTimer.cs" />
+    <Compile Include="UserInterface\ApplicationComponentBase.cs" />
+    <Compile Include="UserInterface\ApplicationComponentChangingEventArgs.cs" />
+    <Compile Include="UserInterface\ApplicationComponentModuleBase.cs" />
+    <Compile Include="UserInterface\ApplicationComponentModuleManager.cs" />
+    <Compile Include="UserInterface\ApplicationMessage.cs" />
+    <Compile Include="UserInterface\ApplicationComponentModuleChangedEventArgs.cs" />
+    <Compile Include="UserInterface\CurrentDataHelper.cs" />
+    <Compile Include="UserInterface\FieldDictionary.cs" />
+    <Compile Include="UserInterface\IApplicationComponent.cs" />
+    <Compile Include="UserInterface\ApplicationComponentModuleChangingEventArgs.cs" />
+    <Compile Include="UserInterface\IPresentationLayer.cs" />
+    <Compile Include="UserInterface\IDocumentPrintManager.cs" />
+    <Compile Include="UserInterface\IUserInterfaceManager.cs" />
+    <Compile Include="UserInterface\IApplicationComponentModule.cs" />
+    <Compile Include="UserInterface\ObjectHistory.cs" />
+    <Compile Include="UserInterface\HistoryElement.cs" />
+    <Compile Include="UserInterface\PrintParameter.cs" />
+    <Compile Include="UserInterface\UndoScope.cs" />
+    <Compile Include="UserInterface\UserInterfaceManagerException.cs" />
+    <Compile Include="UserInterface\Observer\IObservable.cs" />
+    <Compile Include="UserInterface\Observer\IObserver.cs" />
+    <Compile Include="UserInterface\ModelViewController\EntityEventArgs.cs" />
+    <Compile Include="UserInterface\ModelViewController\IAssistantView.cs" />
+    <Compile Include="UserInterface\ModelViewController\IController.cs" />
+    <Compile Include="UserInterface\ModelViewController\IModel.cs" />
+    <Compile Include="UserInterface\ModelViewController\IMultiSelectionModel.cs" />
+    <Compile Include="UserInterface\ModelViewController\ISingleEditingModel.cs" />
+    <Compile Include="UserInterface\ModelViewController\ISingleSelectionModel.cs" />
+    <Compile Include="UserInterface\ModelViewController\ISupportControllerAction.cs" />
+    <Compile Include="UserInterface\ModelViewController\IMultiSelectionView.cs" />
+    <Compile Include="UserInterface\ModelViewController\ISupportUserInterfaceManager.cs" />
+    <Compile Include="UserInterface\ModelViewController\IView.cs" />
+    <Compile Include="UserInterface\ModelViewController\ViewModeType.cs" />
+    <Compile Include="UserInterface\ModelViewController\AnswerOptionType.cs" />
+    <Compile Include="UserInterface\ModelViewController\AnswerType.cs" />
+    <Compile Include="UserInterface\ModelViewController\QuestionIcon.cs" />
+    <Compile Include="UserInterface\ModelViewController\ModelBase.cs" />
+    <Compile Include="UserInterface\ModelViewController\ModelChangedEventArgs.cs" />
+    <Compile Include="UserInterface\ModelViewController\ChangeType.cs" />
+    <Compile Include="UserInterface\ModelViewController\ModelException.cs" />
+    <Compile Include="UserInterface\ModelViewController\ModelHelper.cs" />
+    <Compile Include="UserInterface\ModelViewController\SelectionModelType.cs" />
+    <Compile Include="UserInterface\ModelViewController\ModelHelperBase.cs" />
+    <Compile Include="UserInterface\Mapper\IModelMapper.cs" />
+    <Compile Include="UserInterface\Mapper\ModelMapException.cs" />
+    <Compile Include="UserInterface\Mapper\ModelMapItem.cs" />
+    <Compile Include="UserInterface\Mapper\ModelMapper.cs" />
+    <Compile Include="UserInterface\Fields\ICustomValidator.cs" />
+    <Compile Include="UserInterface\Fields\MandatoryGroupValidatedEventArgs.cs" />
+    <Compile Include="UserInterface\Fields\MandatoryValidationGroup.cs" />
+    <Compile Include="UserInterface\Fields\FieldConfigurationType.cs" />
+    <Compile Include="UserInterface\Fields\MandatoryValidationGroupManager.cs" />
+    <Compile Include="UserInterface\Controls\IControl.cs" />
+    <Compile Include="UserInterface\Controls\IElement.cs" />
+    <Compile Include="UserInterface\Controls\IGroup.cs" />
+    <Compile Include="UserInterface\Controls\Alignment.cs" />
+    <Compile Include="UserInterface\Controls\LocationType.cs" />
+    <Compile Include="UserInterface\Controls\IMultiValueControl.cs" />
+    <Compile Include="UserInterface\Controls\IPerformUndo.cs" />
+    <Compile Include="UserInterface\Controls\ISupportUndo.cs" />
+    <Compile Include="UserInterface\Controls\IValidatableControl.cs" />
+    <Compile Include="SystemConfiguration\PluginLoadedEventArgs.cs" />
+    <Compile Include="SystemConfiguration\SystemConfigurationManager.cs" />
+    <Compile Include="SystemConfiguration\StorageConfirmation.cs" />
+    <Compile Include="SystemConfiguration\TrackingSytem.cs" />
+    <Compile Include="SystemConfiguration\DeletionConfirmation.cs" />
+    <Compile Include="SystemConfiguration\DataModificationWarning.cs" />
+    <Compile Include="SystemConfiguration\SystemConfiguration.cs" />
+    <Compile Include="SystemConfiguration\ComponentConfigurationInfo.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="ResourceManager\ComponentResourceManagementBase.cs" />
+    <Compile Include="ResourceManager\CustomResourceSet.cs" />
+    <Compile Include="ResourceManager\IGlobalResourceSource.cs" />
+    <Compile Include="ResourceManager\GlobalResourceEnquirer.cs" />
+    <Compile Include="ResourceManager\ISupportInternationalization.cs" />
+    <Compile Include="ResourceManager\ResourceAdapter.cs" />
+    <Compile Include="ResourceManager\ResourceManagerProvider.cs" />
+    <Compile Include="ResourceManager\ResourceTranslation.cs" />
+    <Compile Include="ResourceManager\Database\DatabaseResourceManager.cs" />
+    <Compile Include="ResourceManager\Database\DatabaseResourceReader.cs" />
+    <Compile Include="ResourceManager\Database\DatabaseResourceSet.cs" />
+    <Compile Include="ResourceManager\Database\DatabaseResourceWriter.cs" />
+    <Compile Include="ResourceManager\Database\ResourcesAdapter.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Reflection\ReflectionHelperException.cs" />
+    <Compile Include="Reflection\SerializationHelper.cs" />
+    <Compile Include="Permission\IPermissionManager.cs" />
+    <Compile Include="Permission\PermissionManager.cs" />
+    <Compile Include="HistoryTracker\HistoryAttribute.cs" />
+    <Compile Include="HistoryTracker\HistoryChangeItem.cs" />
+    <Compile Include="HistoryTracker\HistoryEntry.cs" />
+    <Compile Include="HistoryTracker\HistoryActionType.cs" />
+    <Compile Include="HistoryTracker\HistoryItemComparer.cs" />
+    <Compile Include="HistoryTracker\IHistoryComparable.cs" />
+    <Compile Include="Exception\ExceptionFactory.cs" />
+    <Compile Include="Exception\ExceptionCulture.cs" />
+    <Compile Include="Exception\IExceptionFactory.cs" />
+    <Compile Include="Culture\ICultureManager.cs" />
+    <Compile Include="Login\LoginResult.cs" />
+    <Compile Include="Login\LoginResultKind.cs" />
+    <Compile Include="Login\ILoginVerifier.cs" />
+    <Compile Include="Login\LoggedInUserData.cs" />
+    <Compile Include="Login\LoginManager.cs" />
+    <Compile Include="Logging\LoggerBase.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\LogFactory.cs" />
+    <Compile Include="Logging\LoggerCreateException.cs" />
+    <Compile Include="Logging\NetTraceLogger.cs" />
+    <Compile Include="FileService\Transmission.cs" />
+    <Compile Include="FileService\TransmissionItems.cs" />
+    <Compile Include="Encryption\EncryptionType.cs" />
+    <Compile Include="Encryption\MD5Engine.cs" />
+    <Compile Include="Property\PropertyAssignmentException.cs" />
+    <Compile Include="Property\PropertyCreationException.cs" />
+    <Compile Include="Property\PropertyNotFoundException.cs" />
+    <Compile Include="Property\PropertyHelper`1.cs" />
+    <Compile Include="Property\PropertyHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Plugin\ITestPlugin.cs" />
+    <Compile Include="Plugin\ITestDetailView.cs" />
+    <Compile Include="Plugin\IPlugin.cs" />
+    <Compile Include="Plugin\PluginManager.cs" />
+    <Compile Include="Plugin\PluginLoadException.cs" />
+    <Compile Include="Monitoring\PerformanceCounterHelper.cs" />
+    <Compile Include="Monitoring\PerformanceCounterInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InstrumentManagement\IInstrument.cs" />
+    <Compile Include="InstrumentManagement\IInstrumentPlugin.cs" />
+    <Compile Include="FileSystem\FileSystemHelper.cs" />
+    <Compile Include="Localization\LocalizationRequiredAttribute.cs" />
+    <Compile Include="Localization\StringFormatMethodAttribute.cs" />
+    <Compile Include="Localization\InvokerParameterNameAttribute.cs" />
+    <Compile Include="Localization\AssertionMethodAttribute.cs" />
+    <Compile Include="Localization\AssertionConditionAttribute.cs" />
+    <Compile Include="Localization\AssertionConditionType.cs" />
+    <Compile Include="Localization\TerminatesProgramAttribute.cs" />
+    <Compile Include="Localization\CanBeNullAttribute.cs" />
+    <Compile Include="Localization\NotNullAttribute.cs" />
+    <Compile Include="Localization\CannotApplyEqualityOperatorAttribute.cs" />
+    <Compile Include="Localization\BaseTypeRequiredAttribute.cs" />
+    <Compile Include="Localization\UsedImplicitlyAttribute.cs" />
+    <Compile Include="Localization\MeansImplicitUseAttribute.cs" />
+    <Compile Include="Localization\ImplicitUseKindFlags.cs" />
+    <Compile Include="Localization\ImplicitUseTargetFlags.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\ResourceManagerExtensions.cs" />
+    <Compile Include="Extensions\HexDumpExtensions.cs" />
+    <Compile Include="Extensions\XmlExtensions.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Extensions\EnumerableMatchComparison`2.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Extensions\IReflectionInfoHelper.cs" />
+    <Compile Include="Extensions\ReflectionInfoHelper`1.cs" />
+    <Compile Include="DataExchange\ConstraintException.cs" />
+    <Compile Include="DataExchange\DataExchangeException.cs" />
+    <Compile Include="DataExchange\DataExchangeTokensAvailableEventArgs.cs" />
+    <Compile Include="DataExchange\DataExchangeTokenSet.cs" />
+    <Compile Include="DataExchange\DataExchangeDataType.cs" />
+    <Compile Include="DataExchange\DataTypes.cs" />
+    <Compile Include="DataExchange\ConditionType.cs" />
+    <Compile Include="DataExchange\ColumnCondition.cs" />
+    <Compile Include="DataExchange\DataExchangeManager.cs" />
+    <Compile Include="DataExchange\DataExchangeType.cs" />
+    <Compile Include="DataExchange\ISupportDataExchangeQuery.cs" />
+    <Compile Include="DataExchange\ISupportPluginDataExchange.cs" />
+    <Compile Include="DataExchange\ExportType.cs" />
+    <Compile Include="DataExchange\ISupportDataExchangeModules.cs" />
+    <Compile Include="DataExchange\ISupportDataConversion.cs" />
+    <Compile Include="DataExchange\XmlHelper.cs" />
+    <Compile Include="DataExchange\Tokens\DataExchangeTokenBase.cs" />
+    <Compile Include="DataExchange\Tokens\DataExchangeTokenSet.cs" />
+    <Compile Include="DataExchange\Tokens\ISupportDataExchangeToken.cs" />
+    <Compile Include="DataExchange\Stream\DataExchangeWriterException.cs" />
+    <Compile Include="DataExchange\Stream\FlatFileStreamWriter.cs" />
+    <Compile Include="DataExchange\Stream\IDataExchangeStreamReader.cs" />
+    <Compile Include="DataExchange\Stream\IDataExchangeStreamWriter.cs" />
+    <Compile Include="DataExchange\Set\RecordDescriptionSet.cs" />
+    <Compile Include="DataExchange\Set\DataExchangeSetException.cs" />
+    <Compile Include="DataExchange\Formatter\FormatterBase.cs" />
+    <Compile Include="DataExchange\Formatter\IDataExchangeFormatter.cs" />
+    <Compile Include="DataExchange\Formatter\InternalSystemFormatter.cs" />
+    <Compile Include="DataExchange\Formatter\FlatFileFormatter.cs" />
+    <Compile Include="DataExchange\Description\ColumnDescriptionBase.cs" />
+    <Compile Include="DataExchange\Description\ColumnDescriptionException.cs" />
+    <Compile Include="DataExchange\Description\ComplexColumnDescription.cs" />
+    <Compile Include="DataExchange\Description\DataExchangeColumnAttribute.cs" />
+    <Compile Include="DataExchange\Description\ISupportDataExchangeColumnDescription.cs" />
+    <Compile Include="DataExchange\Description\DataExchangeRecordAttribute.cs" />
+    <Compile Include="DataExchange\Description\NumericColumnDescription.cs" />
+    <Compile Include="DataExchange\Description\RecordDescription.cs" />
+    <Compile Include="DataExchange\Description\TextColumnDescription.cs" />
+    <Compile Include="DataExchange\Map\CombinedMapItem.cs" />
+    <Compile Include="DataExchange\Map\CombinedMapType.cs" />
+    <Compile Include="DataExchange\Map\ReferenceColumnMapItem.cs" />
+    <Compile Include="DataExchange\Map\ColumnMapItem.cs" />
+    <Compile Include="DataExchange\Map\ColumnResolveException.cs" />
+    <Compile Include="DataExchange\Map\IndexerRecord.cs" />
+    <Compile Include="DataExchange\Map\RecordMap.cs" />
+    <Compile Include="DataExchange\Map\IColumnMapItem.cs" />
+    <Compile Include="DataExchange\Map\LiteralMapItem.cs" />
+    <Compile Include="DataExchange\Map\RecordSplitColumn.cs" />
+    <Compile Include="DataExchange\Map\DataExchangeSetMap.cs" />
+    <Compile Include="DatabaseManagement\ConnectionException.cs" />
+    <Compile Include="DatabaseManagement\DatabaseProviderFactory.cs" />
+    <Compile Include="DatabaseManagement\DBScope.cs" />
+    <Compile Include="DatabaseManagement\TransactionLevel.cs" />
+    <Compile Include="DatabaseManagement\ExceptionHelper.cs" />
+    <Compile Include="DatabaseManagement\ExecutionException.cs" />
+    <Compile Include="DatabaseManagement\RecordDeletedException.cs" />
+    <Compile Include="DatabaseManagement\RecordModifiedException.cs" />
+    <Compile Include="DatabaseManagement\RecordNotFoundException.cs" />
+    <Compile Include="DatabaseManagement\StoreUninitializedRelationException.cs" />
+    <Compile Include="DatabaseManagement\IDatabaseProvider.cs" />
+    <Compile Include="DatabaseManagement\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbColumnAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbPrimaryKeyColumnAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbGeneratedColumnAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbTimestampColumnAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\TimestampSetOption.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbRelationAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbReferenceRelationAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbBackReferenceRelationAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbIntermediateTableRelationAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\JoinType.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbRelationValueAttribute.cs" />
+    <Compile Include="DatabaseManagement\Attributes\DbTableAttribute.cs" />
+    <Compile Include="DatabaseManagement\Adapter\AdapterBase.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EntityFiller.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EntityHelper.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EntityLoadInformation.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EntityRelationChangeHelper.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EntityStoreInfo.cs" />
+    <Compile Include="DatabaseManagement\Adapter\RelationStoreInfo.cs" />
+    <Compile Include="DatabaseManagement\Adapter\ReloadedEntity.cs" />
+    <Compile Include="DatabaseManagement\Adapter\TranslatorResult.cs" />
+    <Compile Include="DatabaseManagement\Adapter\ExpressionTranslator.cs" />
+    <Compile Include="DatabaseManagement\Adapter\ExpressionVisitor.cs" />
+    <Compile Include="DatabaseManagement\Adapter\LoadEntityOption.cs" />
+    <Compile Include="DatabaseManagement\Adapter\ProcessRelationHierarchy.cs" />
+    <Compile Include="DatabaseManagement\Adapter\PropertyHelper.cs" />
+    <Compile Include="DatabaseManagement\Adapter\PropertyAccessor.cs" />
+    <Compile Include="DatabaseManagement\Adapter\NumericArrayPropertyAccessor.cs" />
+    <Compile Include="DatabaseManagement\Adapter\EnumPropertyAccessor.cs" />
+    <Compile Include="DatabaseManagement\Adapter\NullableEnumPropertyAccessor.cs" />
+    <Compile Include="DatabaseManagement\Adapter\QueryBuilder.cs" />
+    <Compile Include="DatabaseManagement\Adapter\RelationHelper.cs" />
+    <Compile Include="DatabaseManagement\Adapter\RelationChangeType.cs" />
+    <Compile Include="DatabaseManagement\Adapter\RelationJoinInfo.cs" />
+    <Compile Include="DatabaseManagement\Adapter\SqlStatementHelper.cs" />
+    <Compile Include="CustomEventArgs\ObjectChangedCancelEventArgs.cs" />
+    <Compile Include="CustomEventArgs\ValueChangedEventArgs.cs" />
+    <Compile Include="CustomEventArgs\ObjectChangedEventArgs.cs" />
+    <Compile Include="Communication\BinaryDataPackage.cs" />
+    <Compile Include="Communication\ChannelControlEventArgs.cs" />
+    <Compile Include="Communication\ChannelDataReceivedEventArgs.cs" />
+    <Compile Include="Communication\ChannelState.cs" />
+    <Compile Include="Communication\ChannelStateEventArgs.cs" />
+    <Compile Include="Communication\CommunicationChannelException.cs" />
+    <Compile Include="Communication\DataPackage.cs" />
+    <Compile Include="Communication\ICommunicationChannel.cs" />
+    <Compile Include="Automaton\ChangeCurrentItemTriggerContext.cs" />
+    <Compile Include="Automaton\ChangeCultureTriggerContext.cs" />
+    <Compile Include="Automaton\ChangeSelectionTriggerContext.cs" />
+    <Compile Include="Automaton\DirectoryInformationTriggerContext.cs" />
+    <Compile Include="Automaton\FileInformationTriggerContext.cs" />
+    <Compile Include="Automaton\HelpRequestTriggerContext.cs" />
+    <Compile Include="Automaton\SearchTriggerContext.cs" />
+    <Compile Include="Automaton\TriggerExecutedEventArgs.cs" />
+    <Compile Include="Automaton\TriggerExecutionState.cs" />
+    <Compile Include="Automaton\TriggerExecutionInformation.cs" />
+    <Compile Include="Automaton\TriggerRequestScope.cs" />
+    <Compile Include="Automaton\ValueChangeTriggerContext.cs" />
+    <Compile Include="Automaton\TriggerContext.cs" />
+    <Compile Include="Automaton\State.cs" />
+    <Compile Include="Automaton\States.cs" />
+    <Compile Include="Automaton\StateMachine.cs" />
+    <Compile Include="Automaton\StateMachineChangedEventArgs.cs" />
+    <Compile Include="Automaton\StateMachineException.cs" />
+    <Compile Include="Automaton\TriggerEventArgs.cs" />
+    <Compile Include="Automaton\Trigger.cs" />
+    <Compile Include="Automaton\Triggers.cs" />
+    <Compile Include="Automaton\Transition\StateMachineConfigurator.cs" />
+    <Compile Include="Automaton\Transition\EnterViewModeOptions.cs" />
+    <Compile Include="Automaton\Transition\SwitchModuleOptions.cs" />
+    <Compile Include="Automaton\Transition\TransitionDefinition.cs" />
+    <Compile Include="Automaton\Transition\FollowUpTransition.cs" />
+    <Compile Include="Automaton\Transition\ITransition.cs" />
+    <Compile Include="Automaton\Transition\TransitionBase.cs" />
+    <Compile Include="Automaton\Transition\FollowUpState.cs" />
+    <Compile Include="Automaton\Guard\AreMultipleItemsSelectedGuard.cs" />
+    <Compile Include="Automaton\Guard\AskSimpleQuestionGuard.cs" />
+    <Compile Include="Automaton\Guard\IsNotGuard.cs" />
+    <Compile Include="Automaton\Guard\IsFuncTrueGuard.cs" />
+    <Compile Include="Automaton\Guard\IsOneItemFocusedGuard.cs" />
+    <Compile Include="Automaton\Guard\IsViewModeAllowedGuard.cs" />
+    <Compile Include="Automaton\Guard\PermissionGuard.cs" />
+    <Compile Include="Automaton\Guard\PermissionGuardComposition.cs" />
+    <Compile Include="Automaton\Guard\HandleModificationGuard.cs" />
+    <Compile Include="Automaton\Guard\IsModificationHandlingChosenGuard.cs" />
+    <Compile Include="Automaton\Guard\IsOneItemAvailableGuard.cs" />
+    <Compile Include="Automaton\Guard\IsUndoableGuard.cs" />
+    <Compile Include="Automaton\Guard\GuardComposition.cs" />
+    <Compile Include="Automaton\Guard\IsOneItemSelectedGuard.cs" />
+    <Compile Include="Automaton\Guard\IsViewValidGuard.cs" />
+    <Compile Include="Automaton\Guard\GuardBase.cs" />
+    <Compile Include="Automaton\Guard\IGuard.cs" />
+    <Compile Include="Automaton\Command\CancelNewItemCommand.cs" />
+    <Compile Include="Automaton\Command\CancelOperationCommand.cs" />
+    <Compile Include="Automaton\Command\ChangeCurrentItemCommand.cs" />
+    <Compile Include="Automaton\Command\ChangeModuleCommand.cs" />
+    <Compile Include="Automaton\Command\ChangeSelectionCommand.cs" />
+    <Compile Include="Automaton\Command\ChangeValueCommand.cs" />
+    <Compile Include="Automaton\Command\CleanUpViewCommand.cs" />
+    <Compile Include="Automaton\Command\ClearUndoHistoryCommand.cs" />
+    <Compile Include="Automaton\Command\CommandManager.cs" />
+    <Compile Include="Automaton\Command\CloseAssistantCommand.cs" />
+    <Compile Include="Automaton\Command\EnableRevertCommand.cs" />
+    <Compile Include="Automaton\Command\CopyUIToModelCommand.cs" />
+    <Compile Include="Automaton\Command\CreateCommandCommand.cs" />
+    <Compile Include="Automaton\Command\DiscardModificationCommand.cs" />
+    <Compile Include="Automaton\Command\DisplayMessageCommand.cs" />
+    <Compile Include="Automaton\Command\GoBackCommand.cs" />
+    <Compile Include="Automaton\Command\HandleModificationCommand.cs" />
+    <Compile Include="Automaton\Command\HandleModificationType.cs" />
+    <Compile Include="Automaton\Command\HelpCommand.cs" />
+    <Compile Include="Automaton\Command\ICommand.cs" />
+    <Compile Include="Automaton\Command\ActionCommand.cs" />
+    <Compile Include="Automaton\Command\CommandBase.cs" />
+    <Compile Include="Automaton\Command\CommandComposition.cs" />
+    <Compile Include="Automaton\Command\IUndoableCommand.cs" />
+    <Compile Include="Automaton\Command\RefreshModelCommand.cs" />
+    <Compile Include="Automaton\Command\RevertModificationCommand.cs" />
+    <Compile Include="Automaton\Command\SaveCommand.cs" />
+    <Compile Include="Automaton\Command\SetSavedCommand.cs" />
+    <Compile Include="Automaton\Command\StartAssistantCommand.cs" />
+    <Compile Include="Automaton\Command\SwitchAssistantViewCommand.cs" />
+    <Compile Include="Automaton\Command\UndoableCommandComposition.cs" />
+    <Compile Include="Automaton\Command\UndoCommand.cs" />
+    <Compile Include="Automaton\Command\AddNewItemCommand.cs" />
+    <Compile Include="Automaton\Command\ChangeViewModeCommand.cs" />
+    <Compile Include="Automaton\Command\CheckPermissionCommand.cs" />
+    <Compile Include="Automaton\Command\DeleteCommand.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

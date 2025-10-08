@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="eScreener Plus" 
+                 Identifier="ESP" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <RecordDescriptions>
+   
+    <!-- An eSP User -->
+    <RecordDescription Identifier="ScreenerType">
+      <ColumnDescription Identifier="ScreenerId" Datatype="String"/>
+      <ColumnDescription Identifier="EspUserID" Datatype="UInt32"/>
+      <ColumnDescription Identifier="Password" Datatype="String"/>
+      <ColumnDescription Identifier="UserProfileId" Datatype="Guid"/>
+    </RecordDescription>
+
+    <!-- An eSP Facility -->
+    <RecordDescription Identifier="FacilityDetails">
+      <ColumnDescription Identifier="FacilityId" Datatype="UInt32"/>
+      <ColumnDescription Identifier="FacilityName" Datatype="String"/>
+      <ColumnDescription Identifier="FacilityType" Datatype="String"/>
+    </RecordDescription>
+
+    <!-- An eSP Device -->
+    <RecordDescription Identifier="DeviceDetails">
+      <ColumnDescription Identifier="EspDeviceCode" Datatype="UInt32"/>
+      <ColumnDescription Identifier="DeviceName" Datatype="String"/>
+      <ColumnDescription Identifier="SerialNumber" Datatype="String"/>
+    </RecordDescription>
+
+    <!-- An eSP Risk Factor -->
+    <RecordDescription Identifier="RiskFactor">
+      <ColumnDescription Identifier="RiskFactorId" Datatype="UInt32"/>
+      <ColumnDescription Identifier="RiskFactorValue" Datatype="String"/>
+    </RecordDescription>
+  
+  </RecordDescriptions>
+</RecordDescriptionSet>

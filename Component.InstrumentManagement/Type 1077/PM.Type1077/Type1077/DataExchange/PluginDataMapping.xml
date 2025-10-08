@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataExchangeMaps>
+  <!-- Import Mapping -->
+  <DataExchangeMap Name="Type 1077 Instrument Management" Identifier="Type1077InstrumentData" Type="Import" FromDataSetIdentifier="Type1077" ToDataSetIdentifier="PM">
+    <RecordMaps>
+
+      <!-- Instrument -->
+      <RecordMap Identifier="InstrumentMapping" FromRecordDescriptionIdentifier="30464" ToRecordDescriptionIdentifier="Type1077Instrument">
+
+        <LiteralMapItem FromValue="BAC087B8-331E-4cd3-8F6E-12A9C13E7E61" ToColumn="InstrumentTypeSignature"/>
+
+        <ColumnMapItem FromColumn="20482" ToColumn="Name"/>
+        <ColumnMapItem FromColumn="20483" ToColumn="UsedStorage"/>
+        <ColumnMapItem FromColumn="20484" ToColumn="TotalStorage"/>
+        <ColumnMapItem FromColumn="20485" ToColumn="BatteryState"/>
+        <ColumnMapItem FromColumn="20488" ToColumn="Language"/>
+        <ColumnMapItem FromColumn="20489" ToColumn="SerialNumber"/>
+
+        <ColumnMapItem FromColumn="20486" ToColumn="SoftwareVersion"/>
+        <ColumnMapItem FromColumn="20490" ToColumn="HardwareVersion"/>
+        <ColumnMapItem FromColumn="20491" ToColumn="LanguagePackName"/>
+        <ColumnMapItem FromColumn="20492" ToColumn="FirmwareBuildNumber"/>
+        <ColumnMapItem FromColumn="20481" ToColumn="InstrumentType"/>
+        <ColumnMapItem FromColumn="20499" ToColumn="NumberOfPatientsOnInstrument"/>
+        <ColumnMapItem FromColumn="20500" ToColumn="NumberOfTestsOnInstrument"/>
+      </RecordMap>
+
+		<!-- Probe Information -->
+		<RecordMap Identifier="ProbeMapping" FromRecordDescriptionIdentifier="21760" ToRecordDescriptionIdentifier="Type1077ProbeInformation">
+			<!--<LiteralMapItem FromValue="BAC087B8-331E-4cd3-8F6E-12A9C13E7E61" ToColumn="InstrumentTypeSignature"/>-->
+			<ColumnMapItem FromColumn="21840" ToColumn="ProbeRawData"/>
+			<ColumnMapItem FromColumn="21842" ToColumn="MicrofoneRmsValue"/>
+			<ColumnMapItem FromColumn="21846" ToColumn="MicrofoneRms2Value"/>
+		</RecordMap>
+		
+		
+		<!-- Loop Back Cable Information -->
+		<RecordMap Identifier="LoopBackCableMapping" FromRecordDescriptionIdentifier="21761" ToRecordDescriptionIdentifier="Type1077LoopBackCableInformation">
+			<!--<LiteralMapItem FromValue="BAC087B8-331E-4cd3-8F6E-12A9C13E7E61" ToColumn="InstrumentTypeSignature"/>-->
+			<ColumnMapItem FromColumn="21842" ToColumn="MicrofoneRmsValue"/>
+			<ColumnMapItem FromColumn="21843" ToColumn="AbrImp1Value"/>
+			<ColumnMapItem FromColumn="21845" ToColumn="AbrImp2Value"/>
+			<ColumnMapItem FromColumn="21846" ToColumn="MicrofoneRms2Value"/>
+		</RecordMap>
+		
+	</RecordMaps>
+    
+  </DataExchangeMap>
+
+  <DataExchangeMap Name="Type 1077 Patient Management" Identifier="Type1077 to PC" Type="Import" FromDataSetIdentifier="Type1077" ToDataSetIdentifier="PM">
+    <RecordMaps>
+      <!-- Patient -->
+      <RecordMap Identifier="PatientValueMapping" FromRecordDescriptionIdentifier="28928" ToRecordDescriptionIdentifier="Patient">
+
+        <!-- Data ValueMapping -->
+        <ColumnMapItem FromColumn="24581" ToColumn="PatientId"/>
+        <ColumnMapItem FromColumn="28929" ToColumn="PatientRecordNumber"/>
+        <ColumnMapItem FromColumn="28982" ToColumn="HospitalId"/>
+        <ColumnMapItem FromColumn="28931" ToColumn="PatientContact.Forename1"/>
+        <ColumnMapItem FromColumn="28932" ToColumn="PatientContact.Forename2"/>
+        <ColumnMapItem FromColumn="28933" ToColumn="PatientContact.Surname"/>
+        <ColumnMapItem FromColumn="28941" ToColumn="PatientContact.Initial"/>
+        <ColumnMapItem FromColumn="28942" ToColumn="PatientContact.AlsoKnownAs"/>
+        <ColumnMapItem FromColumn="28930" ToColumn="PatientContact.DateOfBirth"/>
+        <ColumnMapItem FromColumn="28937" ToColumn="PatientContact.BirthLocation"/>
+        <ColumnMapItem FromColumn="24585" ToColumn="ExternalCreationTimeStamp"/>
+        <ColumnMapItem FromColumn="28936" ToColumn="PatientContact.Weight"/>
+        <ColumnMapItem FromColumn="28935" ToColumn="PatientContact.Height"/>
+
+        <ColumnMapItem FromColumn="28934" ToColumn="PatientContact.Gender">
+          <ValueMapping Name="Male">
+            <Source>18177</Source>
+            <Destination>2</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Female">
+            <Source>18178</Source>
+            <Destination>4</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="28960" ToColumn="NicuStatus">
+          <ValueMapping Name="No">
+            <Source>19970</Source>
+            <Destination>0</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Yes">
+            <Source>19969</Source>
+            <Destination>1</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="28961" ToColumn="ConsentStatus">
+          <ValueMapping Name="Screening">
+            <Source>17154</Source>
+            <Destination>2</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Full">
+            <Source>17153</Source>
+            <Destination>4</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="28963" ToColumn="MotherContact.Forename1"/>
+        <ColumnMapItem FromColumn="28964" ToColumn="MotherContact.Surname"/>
+
+        <ColumnMapItem FromColumn="28965" ToColumn="CaregiverContact.Forename1"/>
+        <ColumnMapItem FromColumn="28966" ToColumn="CaregiverContact.Surname"/>
+
+        <Condition>
+          <!-- Patient Records -->
+          <ColumnCondition Identifier="24577" ConditionType="Equals" Value="28928"/>
+        </Condition>
+      </RecordMap>
+
+      <!-- Free Comments -->
+      <RecordMap Identifier="FreeTextComment" FromRecordDescriptionIdentifier="29952" ToRecordDescriptionIdentifier="FreeTextComment">
+        <ColumnMapItem FromColumn="24581" ToColumn="Id"/>
+        <ColumnMapItem FromColumn="24582" ToColumn="ReferenceId"/>
+        <ColumnMapItem FromColumn="29744" ToColumn="BaseText"/>
+        <ColumnMapItem FromColumn="24585" ToColumn="CreationDate"/>
+        <ColumnMapItem FromColumn="24583" ToColumn="UserAccountId"/>
+      </RecordMap>
+
+      <!-- Associations for Predefined Comment -->
+      <RecordMap Identifier="PredefinedCommentAssociation" FromRecordDescriptionIdentifier="30208" ToRecordDescriptionIdentifier="PredefinedCommentAssociation">
+        <ColumnMapItem FromColumn="24581" ToColumn="AssociationId"/>
+        <ColumnMapItem FromColumn="24582" ToColumn="ReferenceId"/>
+        <ColumnMapItem FromColumn="30224" ToColumn="PredefinedCommentId"/>
+        <ColumnMapItem FromColumn="24585" ToColumn="CreationDate"/>
+        <ColumnMapItem FromColumn="24583" ToColumn="UserAccountId"/>
+      </RecordMap>
+
+      <!-- Associations for Risks Comment -->
+      <RecordMap Identifier="PatientRiskIndcator" FromRecordDescriptionIdentifier="30736" ToRecordDescriptionIdentifier="PatientRiskIndicator">
+        <ColumnMapItem FromColumn="24582" ToColumn="PatientId"/>
+        <ColumnMapItem FromColumn="30737" ToColumn="RiskIndicatorId"/>
+        <ColumnMapItem FromColumn="30738" ToColumn="PatientRiskIndicatorValue"/>
+        <!--
+      <ColumnMapItem FromColumn="24585" ToColumn="CommentCreated"/>
+      <ColumnMapItem FromColumn="24583" ToColumn="UserAccountId"/>
+      -->
+      </RecordMap>
+
+
+
+    </RecordMaps>
+  </DataExchangeMap>
+
+  <!-- Export Mapping -->
+  <DataExchangeMap Name="Type 1077 Patient Management" Identifier="PC to Type1077" Type="Export" FromDataSetIdentifier="PM" ToDataSetIdentifier="Type1077">
+    <RecordMaps>
+
+      <RecordMap Identifier="PatientConfigurationMapping" FromRecordDescriptionIdentifier="Type1077PatientConfiguration" ToRecordDescriptionIdentifier="41040">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="41040" ToColumn="24577"/>
+        <LiteralMapItem FromValue="40E32A17-4729-402d-9CD5-9A3DCCDC73F9" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="NumberOfActiveFields" ToColumn="41041"/>
+        <ColumnMapItem FromColumn="ActiveFields" ToColumn="41042"/>
+        <ColumnMapItem FromColumn="FieldConfiguration" ToColumn="41043"/>
+        <ColumnMapItem FromColumn="NumberOfSortLists" ToColumn="41044"/>
+        <ColumnMapItem FromColumn="SortListConfiguration" ToColumn="41045"/>
+      </RecordMap>
+      
+      <RecordMap Identifier="RiskIndicatorMapping" FromRecordDescriptionIdentifier="RiskIndicator" ToRecordDescriptionIdentifier="30720">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="30720" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="RiskIndicatorId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="Name" ToColumn="29745"/>
+      </RecordMap>
+
+      <!-- Patient Risk Indicator -->
+      <RecordMap Identifier="PatientRiskIndicatorMapping" IndexerColumn="RiskIndicators" FromRecordDescriptionIdentifier="Patient" ToRecordDescriptionIdentifier="30736">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="30736" ToColumn="24577"/>
+        <CombinedMapItem Type="KeyGeneration" ToColumn = "24581">
+          <ReferenceColumnMapItem FromColumn="PatientId"/>
+          <ReferenceColumnMapItem FromColumn="RiskIndicators.RiskIndicatorId"/>
+        </CombinedMapItem>
+        <ColumnMapItem FromColumn="PatientId" ToColumn="24582"/>
+        <ColumnMapItem FromColumn="RiskIndicators.RiskIndicatorId" ToColumn="30737"/>
+        <ColumnMapItem FromColumn="RiskIndicators.PatientRiskIndicatorValue" ToColumn="30738"/>
+      </RecordMap>
+
+      <!-- Predefined Comments for the instrument-->
+      <RecordMap Identifier="PredefinedCommentMapping" FromRecordDescriptionIdentifier="PredefinedComment" ToRecordDescriptionIdentifier="29696">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="29696" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="PredefinedCommentId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="BaseText" ToColumn="29745"/>
+      </RecordMap>
+
+      <!-- Associations (with patient and tests) for Predefined Comment -->
+      <RecordMap Identifier="PatientPredefinedCommentsMapping" IndexerColumn="PredefinedComments" FromRecordDescriptionIdentifier="Patient" ToRecordDescriptionIdentifier="30208">
+        <LiteralMapItem FromValue="30208" ToColumn="24577"/>
+        
+        <ColumnMapItem FromColumn="PredefinedComments.AssociationId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="PredefinedComments.ReferenceId" ToColumn="24582"/>
+        <ColumnMapItem FromColumn="PredefinedComments.PredefinedCommentId" ToColumn="30224"/>
+        <ColumnMapItem FromColumn="PredefinedComments.CreationDate" ToColumn="24585"/>
+        <ColumnMapItem FromColumn="PredefinedComments.UserAccountId" ToColumn="24583"/>
+      </RecordMap>
+      
+      <!-- Patient -->
+      <RecordMap Identifier="PatientValueMapping" FromRecordDescriptionIdentifier="Patient" ToRecordDescriptionIdentifier="28928">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="28928" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="PatientId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="PatientRecordNumber" ToColumn="28929"/>
+        <ColumnMapItem FromColumn="HospitalId" ToColumn="28982"/>
+        <ColumnMapItem FromColumn="PatientContact.Forename1" ToColumn="28931"/>
+        <ColumnMapItem FromColumn="PatientContact.Surname" ToColumn="28933"/>
+        <ColumnMapItem FromColumn="PatientContact.DateOfBirth" ToColumn="28930"/>
+        <ColumnMapItem FromColumn="PatientContact.BirthLocation" ToColumn="28937"/>
+        <ColumnMapItem FromColumn="Modified" ToColumn="24585"/>
+
+        <ColumnMapItem FromColumn="PatientContact.Gender" ToColumn="28934">
+          <ValueMapping Name="Male">
+            <Source>2</Source>
+            <Destination>18177</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Female">
+            <Source>4</Source>
+            <Destination>19969</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="NicuStatus" ToColumn="28960">
+          <ValueMapping Name="No">
+            <Source>0</Source>
+            <Destination>19970</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Yes">
+            <Source>1</Source>
+            <Destination>19969</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="ConsentStatus" ToColumn="28961">
+          <ValueMapping Name="Screening">
+            <Source>2</Source>
+            <Destination>17154</Destination>
+          </ValueMapping>
+          <ValueMapping Name="Full">
+            <Source>4</Source>
+            <Destination>17153</Destination>
+          </ValueMapping>
+        </ColumnMapItem>
+
+        <ColumnMapItem FromColumn="PatientContact.Height" ToColumn="28935"/>
+        <ColumnMapItem FromColumn="PatientContact.Weight" ToColumn="28936"/>
+
+        <ColumnMapItem FromColumn="MotherContact.Forename1" ToColumn="28963"/>
+        <ColumnMapItem FromColumn="MotherContact.Surname" ToColumn="28964"/>
+
+        <ColumnMapItem FromColumn="CaregiverContact.Forename1" ToColumn="28965"/>
+        <ColumnMapItem FromColumn="CaregiverContact.Surname" ToColumn="28966"/>
+
+      </RecordMap>
+
+      <!--
+    <RecordMap Identifier="PatientFieldConfigurationMapping" FromRecordDescriptionIdentifier="PatientFieldConfiguration" ToRecordDescriptionIdentifier="88888">
+       Data ValueMapping 
+      <LiteralMapItem FromValue="88888" ToColumn="24577"/>
+      <ColumnMapItem FromValue="1111-12121-11-44" ToColumn="24581"/>
+      <ColumnMapItem FromColumn="Field1Id" ToColumn="Field1Identifier">
+        
+        <ValueMapping Name = "Forename1">
+          <Source>PatientContact.Forename1</Source>
+          <Destination>28931</Destination>
+        </ValueMapping>
+        
+        <ValueMapping Name = "Surname">
+          <Source>PatientContact.Surname</Source>
+          <Destination>28933</Destination>
+        </ValueMapping>
+      
+      </ColumnMapItem>
+    </RecordMap>
+  -->
+    </RecordMaps>
+  </DataExchangeMap>
+  
+  <!-- User and Profile Managmenet -->
+  <DataExchangeMap Name="Type 1077 User Management" Identifier="PC to Type1077" Type="Export" FromDataSetIdentifier="PM" ToDataSetIdentifier="Type1077">
+    <RecordMaps>
+      <!-- User -->
+      <RecordMap Identifier="UserValueMapping" FromRecordDescriptionIdentifier="User" ToRecordDescriptionIdentifier="8447">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="8447" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="Id" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="LoginName" ToColumn="40960"/>
+        <!--<ColumnMapItem FromColumn="FacilityId" ToColumn="40968"/>-->
+        <ColumnMapItem FromColumn="ProfileId" ToColumn="40969"/>
+        <ColumnMapItem FromColumn="LoginId" ToColumn="40971"/>
+        <ColumnMapItem FromColumn="Password" ToColumn="40964"/>
+        <ColumnMapItem FromColumn="PasswordSalt" ToColumn="40972"/>
+      </RecordMap>
+
+      <!-- User -->
+      <RecordMap Identifier="ProfilePermissions" FromRecordDescriptionIdentifier="UserProfile" ToRecordDescriptionIdentifier="30976">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="30976" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="Id" ToColumn="24581"/>
+
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="0" ToColumn="30977"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="1" ToColumn="30978"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="2" ToColumn="30979"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="3" ToColumn="30980"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="4" ToColumn="30981"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="5" ToColumn="30982"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="6" ToColumn="30983"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="7" ToColumn="30984"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="8" ToColumn="30985"/>
+        <ColumnMapItem FromColumn="ProfileAccessPermissions.Id" FromColumnIndex="9" ToColumn="30986"/>
+
+      </RecordMap>
+
+    </RecordMaps>
+  </DataExchangeMap>
+
+  <!-- Site and Facility Managmenet -->
+  <DataExchangeMap Name="Type 1077 Site and Facility Management" Identifier="PC to Type1077" Type="Export" FromDataSetIdentifier="PM" ToDataSetIdentifier="Type1077">
+    <RecordMaps>
+
+      <RecordMap Identifier="Facility" FromRecordDescriptionIdentifier="Facility" ToRecordDescriptionIdentifier="41216">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="41216" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="FacilityId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="Name" ToColumn="41218"/>
+        <ColumnMapItem FromColumn="Code" ToColumn="41217"/>
+        <ColumnMapItem FromColumn="Locations.LocationId" FromColumnIndex="0" ToColumn="41232"/>
+        <ColumnMapItem FromColumn="Locations.LocationId" FromColumnIndex="1" ToColumn="41233"/>
+        <ColumnMapItem FromColumn="Locations.LocationId" FromColumnIndex="2" ToColumn="41234"/>
+        <ColumnMapItem FromColumn="Locations.LocationId" FromColumnIndex="3" ToColumn="41235"/>
+        <ColumnMapItem FromColumn="Locations.LocationId" FromColumnIndex="4" ToColumn="41236"/>
+      </RecordMap>
+
+      <RecordMap Identifier="LocationTypes" FromRecordDescriptionIdentifier="Location" ToRecordDescriptionIdentifier="41472">
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="41472" ToColumn="24577"/>
+        <ColumnMapItem FromColumn="LocationId" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="Name" ToColumn="41474"/>
+      </RecordMap>
+
+    </RecordMaps>
+  </DataExchangeMap>
+
+  <!-- Site and Facility Managmenet -->
+  <DataExchangeMap Name="Type 1077 Site and Facility Management" Identifier="PC to Type1077" Type="Export" FromDataSetIdentifier="PM" ToDataSetIdentifier="Type1077">
+    <RecordMaps>
+
+      <RecordMap Identifier="InstrumentConfiguration" FromRecordDescriptionIdentifier="Type1077InstrumentConfiguration" ToRecordDescriptionIdentifier="41056">
+
+        <!-- Data ValueMapping -->
+        <LiteralMapItem FromValue="41056" ToColumn="24577"/>
+        <LiteralMapItem FromValue="9DC0148F-7491-4f86-A04C-9A6EF3775CBE" ToColumn="24581"/>
+        <ColumnMapItem FromColumn="PowerTimeout" ToColumn="41085"/>
+        <ColumnMapItem FromColumn="DisplayTimeout" ToColumn="20497"/>
+        <ColumnMapItem FromColumn="InstrumentName" ToColumn="20482"/>
+
+      </RecordMap>
+
+    </RecordMaps>
+  </DataExchangeMap>
+
+</DataExchangeMaps>

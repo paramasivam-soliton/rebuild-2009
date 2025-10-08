@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Core\obj\Debug\PM.InstrumentManagement.Core.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Core\obj\Debug\PathMedical.InstrumentManagement.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Core\obj\Debug\PM.InstrumentManagement.Core.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\PM.InstrumentManagement.Core\obj\Debug\PM.InstrumentManagement.Core.csproj.CoreCompileInputs.cache

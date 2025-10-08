@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.PatientManagement.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A73BD0F2-C84A-4752-8325-6E4A871FFCA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.PatientManagement</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.PatientManagement</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PM.AudiologyTest">
+      <HintPath>lib\PM.AudiologyTest.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserProfileManagement">
+      <HintPath>lib\PM.UserProfileManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="CommentManagement\AddressType.cs" />
+    <Compile Include="CommentManagement\CommentManagerException.cs" />
+    <Compile Include="ComponentResourceManagement.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="CommentManagement\AppellationType.cs" />
+    <Compile Include="CommentManagement\ContactRelationType.cs" />
+    <Compile Include="PatientConfigManager.cs" />
+    <Compile Include="PatientFieldConfigItem.cs" />
+    <Compile Include="PatientManagementConfiguration.cs" />
+    <Compile Include="PatientManagementPermissions.cs" />
+    <Compile Include="PatientManagementTriggers.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="CommentManagement\Gender.cs" />
+    <Compile Include="CommentManagement\ConsentStatus.cs" />
+    <Compile Include="CommentManagement\NicuStatus.cs" />
+    <Compile Include="PatientManager.cs" />
+    <Compile Include="CommentManagement\CreationTimeStampFilterType.cs" />
+    <Compile Include="PatientManagerException.cs" />
+    <Compile Include="RiskIndicatorManagement\IRiskIndicatorView.cs" />
+    <Compile Include="RiskIndicatorManagement\PatientRiskIndicator.cs" />
+    <Compile Include="RiskIndicatorManagement\RiskIndicatorValueType.cs" />
+    <Compile Include="RiskIndicatorManagement\RiskIndicator.cs" />
+    <Compile Include="RiskIndicatorManagement\RiskIndicatorManager.cs" />
+    <Compile Include="RiskIndicatorManagement\RiskIndicatorManagerException.cs" />
+    <Compile Include="RiskIndicatorManagement\RiskIndicatorTranslation.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="DataAccessLayer\FreeTextCommentAdapter.cs" />
+    <Compile Include="DataAccessLayer\PredefinedCommentAdapter.cs" />
+    <Compile Include="DataAccessLayer\IPatientAdapter.cs" />
+    <Compile Include="DataAccessLayer\PatientAdapter.cs" />
+    <Compile Include="DataAccessLayer\PredefinedCommentAssociationAdapter.cs" />
+    <Compile Include="DataAccessLayer\RiskIndicatorAdapter.cs" />
+    <Compile Include="CommentManagement\Comment.cs" />
+    <Compile Include="CommentManagement\PredefinedComment.cs" />
+    <Compile Include="CommentManagement\CommentManager.cs" />
+    <Compile Include="CommentManagement\ICommentView.cs" />
+    <Compile Include="CommentManagement\PredefinedCommentAssoication.cs" />
+    <Compile Include="CommentManagement\PredefinedPatientCommentAssociation.cs" />
+    <Compile Include="CommentManagement\PredefinedTestCommentAssociation.cs" />
+    <Compile Include="CommentManagement\FreeTextComment.cs" />
+    <Compile Include="Command\AddCommentCommand.cs" />
+    <Compile Include="Command\ChangeCreationTimeStampFilterCommand.cs" />
+    <Compile Include="Command\ChangeRiskIndicatorAssignmentCommand.cs" />
+    <Compile Include="Command\ChangeTranslationCommand.cs" />
+    <Compile Include="Command\CommentTriggerContext.cs" />
+    <Compile Include="Command\PasteTestCommand.cs" />
+    <Compile Include="Command\CutTestCommand.cs" />
+    <Compile Include="Command\DeleteCommentCommand.cs" />
+    <Compile Include="Command\DeleteTestCommand.cs" />
+    <Compile Include="Command\PrintDetailPatientReportCommand.cs" />
+    <Compile Include="Command\PrintSinglePatientReportCommand.cs" />
+    <Compile Include="Command\SearchPatientCommand.cs" />
+    <Compile Include="Command\SetUnknownRiskIndicatorsToNoCommand.cs" />
+    <Compile Include="Client\PatientBrowser\IPatientBrowserView.cs" />
+    <Compile Include="Automaton\Guard\IsOneItemAvailableGuard.cs" />
+    <Compile Include="Automaton\Guard\IsOneItemInCacheGuard.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataExchange\PluginDataDescription.xml" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

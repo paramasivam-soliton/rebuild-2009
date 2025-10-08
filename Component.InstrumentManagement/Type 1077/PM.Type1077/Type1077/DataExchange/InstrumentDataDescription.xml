@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="Type 1077" Identifier="Type1077" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".\RecordDescriptionSet.XSD">
+  
+  <RecordDescriptions>
+
+    <RecordDescription Identifier="CommonHeader" Description="Common Header">
+      <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+      <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+      <ColumnDescription Description="DataBlockLength" Identifier="24578" Datatype="UInt16"/>
+      <ColumnDescription Description="IsObsolete" Identifier="24579" Datatype="UInt16"/>
+      <!--<ColumnDescription Description="CheckSum" Identifier="24580" Datatype="UInt16"/>-->
+      <ColumnDescription Description="PrimaryRecordId" Identifier="24581" Datatype="Guid"/>
+      <ColumnDescription Description="PatientId" Identifier="24582" Datatype="Guid"/>
+      <ColumnDescription Description="UserId" Identifier="24583" Datatype="Guid"/>
+      <ColumnDescription Description="FirmwareVersion" Identifier="24584" Datatype="UInt16"/>
+      <ColumnDescription Description="CreationDate" Identifier="24585" Datatype="DateTime"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="CommonTestHeader" Description="Common Test Header">
+      <ColumnDescription Description="TestModuleVersionNumber" Identifier="32769" Datatype="UInt16"/>
+      <ColumnDescription Description="TestedEar" Identifier="32771" Datatype="UInt16"/>
+      <ColumnDescription Description="AddiontionalTestPatientId" Identifier="32772" Datatype="Guid"/>
+      <ColumnDescription Description="ProbeType" Identifier="32773" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeSerialNumber" Identifier="32774" Datatype="UInt32"/>
+      <ColumnDescription Description="ProbeCalibrationDate" Identifer="20496" Datatype="DateTime"/>
+      <ColumnDescription Description="TestTimeStamp" Identifier="32775" Datatype="DateTime"/>
+      <ColumnDescription Description="InstrumentSerialNumber" Identifier="32776" Datatype="UInt32"/>
+      <ColumnDescription Description="ProbeTestCounter" Identifier="32777" Datatype="UInt16"/>
+      <ColumnDescription Description="TestDuration" Identifier="32778" Datatype="UInt16"/>
+      <!--<ColumnDescription Description="ProbeStatus" Identifier="32780" Datatype=""/>
+      <ColumnDescription Description="TestName" Identifier="32779" Datatype="String"/>-->
+      <ColumnDescription Description="LocationId" Identifier="32782" Datatype="Guid"/>
+      <ColumnDescription Description="FacilityId" Identifier="32783" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="28928" Description="ContactInformation">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="MedicalRecordNumber" Identifier="28929" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="HospitalId" Identifier="28982" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="NicuStatus" Identifier="28960" Datatype="UInt16"/>
+      <ColumnDescription Description="ConsentStatus" Identifier="28961" Datatype="UInt16"/>
+      <ColumnDescription Description="DateOfBirth" Identifier="28930" Datatype="DateTime"/>
+      <ColumnDescription Description="Forename" Identifier="28931" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="AdditionalForename" Identifier="28932" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Surname" Identifier="28933" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Gender" Identifier="28934" Datatype="UInt16"/>
+      <ColumnDescription Description="Height" Identifier="28935" Datatype="String"/>
+      <ColumnDescription Description="Weight" Identifier="28936" Datatype="String"/>
+      <ColumnDescription Description="BirthLocation" Identifier="28937" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="LanguageCode" Identifier="28938" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Nationality" Identifier="28939" Datatype="String" MaxLength="80"/>
+
+      <ColumnDescription Description="Title" Identifier="28940" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Initial" Identifier="28941" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="AlsoKnownAs" Identifier="28942" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="SocialSecurityNumber" Identifier="28943" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="EMail1" Identifier="28944" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="EMail2" Identifier="28945" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Created" Identifier="28946" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Modified" Identifier="28947" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Address1" Identifier="28948" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Address2" Identifier="28949" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="ZipCode" Identifier="28950" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="City" Identifier="28951" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="State" Identifier="28952" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Country" Identifier="28953" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Phone" Identifier="28954" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Cellphone" Identifier="28955" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="Fax" Identifier="28956" Datatype="String" MaxLength="80"/>
+
+      <ColumnDescription Description="MotherForname" Identifier="28963" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="MotherSurname" Identifier="28964" Datatype="String" MaxLength="80"/>
+
+      <ColumnDescription Description="CarerForname" Identifier="28965" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="CarerSurname" Identifier="28966" Datatype="String" MaxLength="80"/>
+    
+    </RecordDescription>
+
+    <RecordDescription Identifier="30464" Description="InstrumentInformation">
+      <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+      <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+      <ColumnDescription Description="DateTime" Identifier="20480" Datatype="DateTime"/>
+      <ColumnDescription Description="InstrumentType" Identifier="20481" Datatype="UInt16" MaxLength="80"/>
+      <ColumnDescription Description="Name" Identifier="20482" Datatype="String" MaxLength="80"/>
+      <ColumnDescription Description="UsedMemory" Identifier="20483" Datatype="UInt32"/>
+      <ColumnDescription Description="TotalMemory" Identifier="20484" Datatype="UInt32"/>
+      <ColumnDescription Description="BatteryState" Identifier="20485" Datatype="UInt16"/>
+      <ColumnDescription Description="FirmwareVersion" Identifier="20486" Datatype="String"/>
+      <ColumnDescription Description="IsMessagePanelOpen" Identifier="20487" Datatype="UInt8"/>
+      <ColumnDescription Description="SerialNumber" Identifier="20489" Datatype="UInt32"/>
+      <ColumnDescription Description="CurrentInstrumentLanguage" Identifier="20488" Datatype="String"/>
+      <ColumnDescription Description="HardwareVersion" Identifier="20490" Datatype="UInt16"/>
+      <ColumnDescription Description="LanguagePackName" Identifier="20491" Datatype="String"/>
+      <ColumnDescription Description="FirmwareBuildNumber" Identifier="20492" Datatype="UInt32"/>
+      <ColumnDescription Description="NumberOfPatients" Identifier="20499" Datatype="UInt16"/>
+      <ColumnDescription Description="NumberOfTest" Identifier="20500" Datatype="UInt16"/>
+    </RecordDescription>
+
+	<RecordDescription Identifier="21760" Description="ProbeInformation">
+	  <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+	  <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+	  <ColumnDescription Description="DateTime" Identifier="20480" Datatype="DateTime"/>
+	  <ColumnDescription Description="ProbeRawData" Identifier="21840" Datatype="UInt8Array"/>
+	  <ColumnDescription Description="MicRms" Identifier="21842" Datatype="Float"/>
+	  <ColumnDescription Description="AbrImp1" Identifier="21843" Datatype="Float"/>
+	  <ColumnDescription Description="AbrImp2" Identifier="21845" Datatype="Float"/>
+	  <ColumnDescription Description="MicRms2" Identifier="21846" Datatype="Float"/>
+	</RecordDescription>
+
+
+	  <RecordDescription Identifier="21761" Description="LoopBackCableInformation">
+		  <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+		  <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+		  <ColumnDescription Description="DateTime" Identifier="20480" Datatype="DateTime"/>
+		  <ColumnDescription Description="ProbeRawData" Identifier="21840" Datatype="UInt8Array"/>
+		  <ColumnDescription Description="MicRms" Identifier="21842" Datatype="Float"/>
+		  <ColumnDescription Description="AbrImp1" Identifier="21843" Datatype="Float"/>
+		  <ColumnDescription Description="AbrImp2" Identifier="21845" Datatype="Float"/>
+		  <ColumnDescription Description="MicRms2" Identifier="21846" Datatype="Float"/>
+	  </RecordDescription>
+
+
+	  <RecordDescription Identifier="29952" Description="FreeTextComment">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="Comment" Identifier="29744" Datatype="String"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="29696" Description="PredefinedComment">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="TextLanguage1" Identifier="29745" Datatype="String"/>
+    </RecordDescription>
+    
+    <RecordDescription Identifier="30208" Description="PredefinedCommentAssociation">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="CommentReference" Identifier="30224" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="8447" Description="User">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="LoginName" Identifier="40960" Datatype="String"/>
+      <!-- The password is a string containing an MD5 hash which is in this case the "same" as a string -->
+      <ColumnDescription Description="Password" Identifier="40964" Datatype="Guid"/>
+      <ColumnDescription Description="FacilityId" Identifier="40968" Datatype="Guid"/>
+      <ColumnDescription Description="ProfileId" Identifier="40969" Datatype="Guid"/>
+      <ColumnDescription Description="LoginId" Identifier="40971" Datatype="String"/>
+      <ColumnDescription Description="PasswordSalt" Identifier="40972" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="30976" Description="Profile">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="Permission1" Identifier="30977" Datatype="Guid"/>
+      <ColumnDescription Description="Permission2" Identifier="30978" Datatype="Guid"/>
+      <ColumnDescription Description="Permission3" Identifier="30979" Datatype="Guid"/>
+      <ColumnDescription Description="Permission4" Identifier="30980" Datatype="Guid"/>
+      <ColumnDescription Description="Permission5" Identifier="30981" Datatype="Guid"/>
+      <ColumnDescription Description="Permission6" Identifier="30982" Datatype="Guid"/>
+      <ColumnDescription Description="Permission7" Identifier="30983" Datatype="Guid"/>
+      <ColumnDescription Description="Permission8" Identifier="30984" Datatype="Guid"/>
+      <ColumnDescription Description="Permission9" Identifier="30985" Datatype="Guid"/>
+      <ColumnDescription Description="Permission10" Identifier="30986" Datatype="Guid"/>
+    </RecordDescription>
+  
+    <RecordDescription Identifier="41216" Description="Facility">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="Name" Identifier="41218" Datatype="String"/>
+      <ColumnDescription Description="Code" Identifier="41217" Datatype="String"/>
+      <ColumnDescription Description="LocationType1" Identifier="41232" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType2" Identifier="41233" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType3" Identifier="41234" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType4" Identifier="41235" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType5" Identifier="41236" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType6" Identifier="41237" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType7" Identifier="41238" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType8" Identifier="41239" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType9" Identifier="41240" Datatype="Guid"/>
+      <ColumnDescription Description="LocationType10" Identifier="41241" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="41472" Description="Location">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="Name" Identifier="41474" Datatype="String"/>
+    </RecordDescription>
+    
+    <RecordDescription Identifier="30720" Description="RiskIndicator">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="Language1" Identifier="29745" Datatype="String"/>
+      <ColumnDescription Description="Language2" Identifier="29746" Datatype="String"/>
+      <ColumnDescription Description="Language3" Identifier="29747" Datatype="String"/>
+      <ColumnDescription Description="Language4" Identifier="29748" Datatype="String"/>
+      <ColumnDescription Description="Language5" Identifier="29749" Datatype="String"/>
+      <ColumnDescription Description="Language6" Identifier="29750" Datatype="String"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="30736" Description="PatientRiskIndicator">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="RiskIndicatorId" Identifier="30737" Datatype="Guid"/>
+      <ColumnDescription Description="PatientRiskIndicatorValue" Identifier="30738" Datatype="UInt16"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="41056" Description="InstrumentConfiguration">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="PowerTimeout" Identifier="41085" Datatype="UInt16"/>
+      <ColumnDescription Description="DisplayTimeout" Identifier="20497" Datatype="UInt16"/>
+      <ColumnDescription Description="InstrumentName" Identifier="20482" Datatype="String"/>
+    </RecordDescription>
+      
+    <RecordDescription Identifier="99999" Description="PatientBrowserListConfiguration">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+
+      <!-- Field content is UFN -->
+      <ColumnDescription Description="List1Field1" Identifier="99999" Datatype="UInt16"/>
+      <ColumnDescription Description="List1Field2" Identifier="99998" Datatype="UInt16"/>
+
+      <ColumnDescription Description="List2Field1" Identifier="99997" Datatype="UInt16"/>
+      <ColumnDescription Description="List2Field2" Identifier="99996" Datatype="UInt16"/>
+
+      <ColumnDescription Description="List3Field1" Identifier="99995" Datatype="UInt16"/>
+      <ColumnDescription Description="List3Field2" Identifier="99994" Datatype="UInt16"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="41040" Description="PatientFieldConfiguration">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+
+      <!-- UFN Reference of Field -->
+      <ColumnDescription Description="NumberOfActiveFields" Identifier="41041" Datatype="UInt16"/> 
+      <ColumnDescription Description="ActiveFields" Identifier="41042" Datatype="UInt16Array"/>
+      <ColumnDescription Description="FieldConfiguration" Identifier="41043" Datatype="UInt16Array"/>
+      <ColumnDescription Description="NumberOfSortLists" Identifier="41044" Datatype="UInt16"/>
+      <ColumnDescription Description="SortListConfiguration" Identifier="41045" Datatype="UInt16Array"/>
+
+    </RecordDescription>
+  
+  
+  </RecordDescriptions>
+
+</RecordDescriptionSet>

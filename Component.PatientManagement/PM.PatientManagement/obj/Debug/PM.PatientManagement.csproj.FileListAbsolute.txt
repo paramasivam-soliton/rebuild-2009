@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement\obj\Debug\PM.PatientManagement.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement\obj\Debug\PathMedical.PatientManagement.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement\obj\Debug\PM.PatientManagement.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement\obj\Debug\PM.PatientManagement.csproj.CoreCompileInputs.cache

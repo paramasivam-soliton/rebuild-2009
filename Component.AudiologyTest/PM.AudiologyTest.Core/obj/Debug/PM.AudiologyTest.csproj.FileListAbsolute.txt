@@ -1,0 +1,12 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\bin\Debug\PM.AudiologyTest.dll
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\bin\Debug\PM.AudiologyTest.pdb
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\bin\Debug\PM.Core.dll
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\bin\Debug\PM.InstrumentManagement.Core.dll
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\bin\Debug\PM.UserProfileManagement.dll
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.AudiologyTest.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PathMedical.AudiologyTest.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.AudiologyTest.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.AudiologyTest.csproj.CoreCompileInputs.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.Audio.C53159D7.Up2Date
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.AudiologyTest.dll
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\PM.AudiologyTest.Core\obj\Debug\PM.AudiologyTest.pdb

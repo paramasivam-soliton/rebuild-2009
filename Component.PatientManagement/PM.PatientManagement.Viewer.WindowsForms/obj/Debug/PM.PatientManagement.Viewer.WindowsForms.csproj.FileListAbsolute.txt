@@ -1,0 +1,15 @@
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PM.PatientManagement.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.Configuration.ConfigurationEditor.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientBrowser.DetailView.TestDetailViewer.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientBrowser.PatientTestBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientBrowser.Reports.DetailTestReport.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientBrowser.SingleTestReport.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientEditor.Panels.PatientCommentEditor.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientEditor.Panels.PatientDataEditor.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientEditor.Panels.PatientRiskIndicatorEditor.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PatientEditor.PatientEditor.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.PredefinedCommentManagement.PredefinedCommentMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PathMedical.PatientManagement.Viewer.WindowsForms.RiskFactorManagement.RiskFactorMasterDetailBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PM.PatientManagement.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.PatientManagement\PM.PatientManagement.Viewer.WindowsForms\obj\Debug\PM.PatientManagement.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

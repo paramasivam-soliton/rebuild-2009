@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="Instrument Management" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <RecordDescriptions>
+   
+    <!-- An Instrument -->
+    <RecordDescription Identifier="Type1077Instrument">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="InstrumentTypeSignature" Datatype="Guid"/>
+      <ColumnDescription Identifier="InstrumentType" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="SerialNumber" Datatype="String"/>
+      <ColumnDescription Identifier="FreeStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="UsedStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="TotalStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="BatteryState" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Language" Datatype="String"/>
+      <ColumnDescription Identifier="LanguagePackName" Datatype="String"/>
+      <ColumnDescription Identifier="Language1" Datatype="String"/>
+      <ColumnDescription Identifier="Language2" Datatype="String"/>
+      <ColumnDescription Identifier="Language3" Datatype="String"/>
+      <ColumnDescription Identifier="Language4" Datatype="String"/>
+      <ColumnDescription Identifier="Language5" Datatype="String"/>
+      <ColumnDescription Identifier="Language6" Datatype="String"/>
+      <ColumnDescription Identifier="IsMessagePanelOpen" Datatype="Boolean"/>
+      <ColumnDescription Identifier="HardwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="SoftwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="HardwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="FirmwareBuildNumber" Datatype="UInt32"/>
+      <ColumnDescription Identifier="NumberOfPatientsOnInstrument" Datatype="UInt32"/>
+      <ColumnDescription Identifier="NumberOfTestsOnInstrument" Datatype="UInt32"/>
+    </RecordDescription>
+
+    <!-- An Instrument Configuration -->
+    <RecordDescription Identifier="Type1077InstrumentConfiguration">
+      <ColumnDescription Identifier="DisplayTimeout" Datatype="UInt16"/>
+      <ColumnDescription Identifier="PowerTimeout" Datatype="UInt16"/>
+      <ColumnDescription Identifier="InstrumentName" Datatype="String"/>
+    </RecordDescription>
+
+	  <!-- An Probe Configuration -->
+	  <RecordDescription Identifier="Type1077ProbeInformation">
+		  <ColumnDescription Identifier="ProbeRawData" Datatype="UInt8Array"/>
+		  <ColumnDescription Identifier="MicrofoneRmsValue" Datatype="Float"/>
+		  <ColumnDescription Identifier="MicrofoneRms2Value" Datatype="Float"/>
+	  </RecordDescription>
+
+	  <!-- An Loop Back Cable Configuration -->
+	  <RecordDescription Identifier="Type1077LoopBackCableInformation">
+		  <ColumnDescription Identifier="MicrofoneRmsValue" Datatype="Float"/>
+		  <ColumnDescription Identifier="MicrofoneRms2Value" Datatype="Float"/>
+		  <ColumnDescription Identifier="AbrImp1Value" Datatype="Float"/>
+		  <ColumnDescription Identifier="AbrImp2Value" Datatype="Float"/>
+	  </RecordDescription>
+
+	  <!-- An Instrument Configuration -->
+    <RecordDescription Identifier="Type1077PatientConfiguration">
+      <ColumnDescription Identifier="NumberOfActiveFields" Datatype="UInt16"/> 
+      <ColumnDescription Identifier="ActiveFields" Datatype="UInt16Array"/>
+      <ColumnDescription Identifier="FieldConfiguration" Datatype="UInt16Array"/>
+      <ColumnDescription Identifier="NumberOfSortLists" Datatype="UInt16"/>
+      <ColumnDescription Identifier="SortListConfiguration" Datatype="UInt16Array"/>
+    </RecordDescription>
+  
+</RecordDescriptions>
+</RecordDescriptionSet>

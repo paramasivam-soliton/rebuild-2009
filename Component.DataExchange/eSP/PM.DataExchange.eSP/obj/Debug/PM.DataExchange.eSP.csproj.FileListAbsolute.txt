@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP\obj\Debug\PM.DataExchange.eSP.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP\obj\Debug\PathMedical.DataExchange.eSP.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP\obj\Debug\PM.DataExchange.eSP.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP\obj\Debug\PM.DataExchange.eSP.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Viewer.WindowsForms\obj\Debug\PM.SystemConfiguration.Viewer.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Viewer.WindowsForms\obj\Debug\PathMedical.SystemConfiguration.Viewer.WindowsForms.ComponentBrowser.ComponentBrowser.resources
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Viewer.WindowsForms\obj\Debug\PathMedical.SystemConfiguration.Viewer.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Viewer.WindowsForms\obj\Debug\PM.SystemConfiguration.Viewer.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Viewer.WindowsForms\obj\Debug\PM.SystemConfiguration.Viewer.WindowsForms.csproj.CoreCompileInputs.cache

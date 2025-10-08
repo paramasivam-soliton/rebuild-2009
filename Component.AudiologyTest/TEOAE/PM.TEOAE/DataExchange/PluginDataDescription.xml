@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="TEOAE Screening Plugin" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <RecordDescriptions>
+
+    <!-- TEOAE -->
+    <RecordDescription Identifier="TEOAE.TestInformation">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="PatientId" Datatype="Guid"/>
+      <ColumnDescription Identifier="UserAccountId" Datatype="Guid"/>
+      <ColumnDescription Identifier="LocationId" Datatype="Guid"/>
+      <ColumnDescription Identifier="FacilityId" Datatype="Guid"/>
+      <ColumnDescription Identifier="TestName" Datatype="String"/>
+      <ColumnDescription Identifier="FirmwareVersion" Datatype="UInt32"/>
+      <ColumnDescription Identifier="TestTimeStamp" Datatype="DateTime"/>
+      <ColumnDescription Identifier="Duration" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Ear" Datatype="UInt16"/>
+      <ColumnDescription Identifier="TestResult" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeType" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeSerialNumber" Datatype="UInt32"/>
+      <ColumnDescription Identifier="ProbeCounter" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeCalibrationDate" Datatype="Date"/>
+      <ColumnDescription Identifier="InstrumentSerialNumber" Datatype="UInt32"/>
+      <ColumnDescription Identifier="Version" Datatype="UInt16"/>
+      
+       <ColumnDescription Identifier="Progress" Datatype="UInt16"/> 
+      <ColumnDescription Identifier="Noise" Datatype="UInt16"/> <!-- Environmental Data -->
+      <ColumnDescription Identifier="Teoae" Datatype="UInt16"/> <!-- Significance Data -->
+      <ColumnDescription Identifier="GraphScale" Datatype="Float"/>
+      <ColumnDescription Identifier="Graph" IsArray="True" Datatype="Int8"/>
+      <ColumnDescription Identifier="Frames" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Energy" Datatype="UInt16"/>
+      <ColumnDescription Identifier="CalibrationFrames" Datatype="UInt16"/> <!-- Quality Data -->      
+      <ColumnDescription Identifier="CalibrationValues" Datatype="UInt16"/> <!-- Quality Data -->
+      <ColumnDescription Identifier="CalibrationGraphScale" Datatype="Float"/> <!-- Quality Data -->
+      <ColumnDescription Identifier="CalibrationGraph" IsArray="True" Datatype="Int8"/>      <!-- Quality Data -->
+      <ColumnDescription Identifier="FrequencySamplingRate" Datatype="UInt16"/>
+      <ColumnDescription Identifier="PeakIndex" IsArray="True" Datatype="UInt8"/> <!-- Significance Data -->
+      <ColumnDescription Identifier="Artefact" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Stability" Datatype="UInt16"/>
+    </RecordDescription>
+    
+  </RecordDescriptions>
+</RecordDescriptionSet>

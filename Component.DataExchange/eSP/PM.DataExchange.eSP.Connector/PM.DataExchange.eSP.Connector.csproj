@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.DataExchange.eSP.Connector.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C2A00A6-8CF1-4D2E-BA87-7DFC1FA73219}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.DataExchange.eSP.Connector</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.DataExchange.eSP.Connector.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v9.3">
+      <HintPath>lib\DevExpress.XtraWizard.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core" />
+    <Reference Include="PM.DataExchange.eSP">
+      <HintPath>lib\PM.DataExchange.eSP.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.SystemConfiguration.Core" />
+    <Reference Include="PM.UserInterface.WindowsForms" />
+    <Reference Include="PM.UserProfileManagement" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EspComponent.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Export\EspExportController.cs" />
+    <Compile Include="Export\EspExportAssistant.cs" />
+    <Compile Include="Export\EspExportComponentModule.cs" />
+    <Compile Include="Configuration\EspConfigurationEditor.cs" />
+    <Compile Include="Configuration\EspConfigurationComponentModule.cs" />
+    <Compile Include="Configuration\EspConfigurationController.cs" />
+    <Compile Include="ConfigurationImport\EspConfigurationImportController.cs" />
+    <Compile Include="ConfigurationImport\EspConfigurationImportComponentModule.cs" />
+    <Compile Include="ConfigurationImport\EspImportConfigurationAssistant.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\EspConfigurationEditor.resx" />
+    <EmbeddedResource Include="ConfigurationImport\EspImportConfigurationAssistant.resx" />
+    <EmbeddedResource Include="Export\EspExportAssistant.resx" />
+    <EmbeddedResource Include="PM\DataExchange\eSP\Connector\dll.licenses" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

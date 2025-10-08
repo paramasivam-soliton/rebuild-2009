@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="Instrument Management" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <RecordDescriptions>
+   
+    <!-- An Instrument -->
+    <RecordDescription Identifier="Instrument">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="InstrumentTypeSignature" Datatype="Guid"/>
+      <ColumnDescription Identifier="InstrumentType" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Code" Datatype="String"/>
+      <ColumnDescription Identifier="SerialNumber" Datatype="String"/>
+      <ColumnDescription Identifier="FreeStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="UsedStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="TotalStorage" Datatype="UInt32"/>
+      <ColumnDescription Identifier="BatteryState" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Language" Datatype="String"/>
+      <ColumnDescription Identifier="LanguagePackName" Datatype="String"/>
+      <ColumnDescription Identifier="Language1" Datatype="String"/>
+      <ColumnDescription Identifier="Language2" Datatype="String"/>
+      <ColumnDescription Identifier="Language3" Datatype="String"/>
+      <ColumnDescription Identifier="Language4" Datatype="String"/>
+      <ColumnDescription Identifier="Language5" Datatype="String"/>
+      <ColumnDescription Identifier="Language6" Datatype="String"/>
+      <ColumnDescription Identifier="IsMessagePanelOpen" Datatype="Boolean"/>
+      <ColumnDescription Identifier="HardwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="SoftwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="HardwareVersion" Datatype="String"/>
+      <ColumnDescription Identifier="FirmwareBuildNumber" Datatype="UInt32"/>
+    </RecordDescription>
+
+  </RecordDescriptions>
+</RecordDescriptionSet>

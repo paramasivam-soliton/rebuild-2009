@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.SQLServer\obj\Debug\PM.DatabaseManagement.SQLServer.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.SQLServer\obj\Debug\PathMedical.DatabaseManagement.SQLServer.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.SQLServer\obj\Debug\PM.DatabaseManagement.SQLServer.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.SQLServer\obj\Debug\PM.DatabaseManagement.SQLServer.csproj.CoreCompileInputs.cache

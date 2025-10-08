@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="DPOAE Screening"
+                 Identifier="Type1077"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <RecordDescriptions>
+
+    <RecordDescription Identifier="CommonHeader" Description="Common Header">
+      <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+      <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+      <ColumnDescription Description="DataBlockLength" Identifier="24578" Datatype="UInt16"/>
+      <ColumnDescription Description="IsObsolete" Identifier="24579" Datatype="UInt16"/>
+      <ColumnDescription Description="PrimaryRecordId" Identifier="24581" Datatype="Guid"/>
+      <ColumnDescription Description="PatientId" Identifier="24582" Datatype="Guid"/>
+      <ColumnDescription Description="UserId" Identifier="24583" Datatype="Guid"/>
+      <ColumnDescription Description="FirmwareVersion" Identifier="24584" Datatype="UInt16"/>
+      <ColumnDescription Description="CreationDate" Identifier="24585" Datatype="DateTime"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="CommonTestHeader" Description="Common Test Header">
+      <ColumnDescription Description="TestModuleVersionNumber" Identifier="32769" Datatype="UInt16"/>
+      <ColumnDescription Description="TestedEar" Identifier="32771" Datatype="UInt16"/>
+      <ColumnDescription Description="AddiontionalTestPatientId" Identifier="32772" Datatype="Guid"/>
+      <ColumnDescription Description="ProbeType" Identifier="32773" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeSerialNumber" Identifier="32774" Datatype="UInt32"/>
+      <ColumnDescription Description="TestTimeStamp" Identifier="32775" Datatype="DateTime"/>
+      <ColumnDescription Description="InstrumentSerialNumber" Identifier="32776" Datatype="UInt32"/>
+      <ColumnDescription Description="ProbeTestCounter" Identifier="32777" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeCalibrationDate" Identifier="20496" Datatype="Date"/>
+      <ColumnDescription Description="TestDuration" Identifier="32778" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeStatus" Identifier="32780" Datatype="UInt16"/>
+      <ColumnDescription Description="TestName" Identifier="32779" Datatype="String"/> <!-- Test Procedure -->
+      <ColumnDescription Description="LocationId" Identifier="32782" Datatype="Guid"/>
+      <ColumnDescription Description="FacilityId" Identifier="32783" Datatype="Guid"/>
+    </RecordDescription>
+    
+    <RecordDescription Identifier="32989" Description="DPOAE">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <IncludeRecordDescription Identifier="CommonTestHeader"/>
+      <ColumnDescription Description="TestResult" Identifier="33537" Datatype="UInt16"/>
+      <ColumnDescription Description="Version" Identifier="33538" Datatype="UInt16"/>
+      <ColumnDescription Description="NumberOfTests" Identifier="33539" Datatype="UInt16"/>
+      <ColumnDescription Description="FrequencySamplingRate" Identifier="33540" Datatype="UInt16"/>
+      <ColumnDescription Description="CalibrationFrames" Identifier="33541" Datatype="UInt16"/> <!-- Quality Data --> <!-- Test Condition -->     
+      <ColumnDescription Description="CalibrationValues" Identifier="33542" Datatype="UInt16"/><!-- Quality Data --> <!-- Test Condition -->
+      <ColumnDescription Description="CalibrationGraphScale" Identifier="33543" Datatype="Float"/> <!-- Quality Data --> <!-- Test Condition -->
+      <ColumnDescription Description="CalibrationGraph" Identifier="33544" IsArray="True" Datatype="Int8"/> <!-- Quality Data --> <!-- Test Condition -->
+      
+      <ColumnDescription Description="Frequency1List" Identifier="33545" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="Frequency2List" Identifier="33546" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="Frequency1NormalizedList" Identifier="33547" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="Frequency2NormalizedList" Identifier="33548" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="SingleResultList" Identifier="33549" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="DPOAEList" Identifier="33550" IsArray="True" Datatype="Float"/> <!-- Significance Data-->
+      <ColumnDescription Description="NoiseList" Identifier="33551" IsArray="True" Datatype="Float"/> <!-- Quality Data --> <!-- Test Condition -->
+      <ColumnDescription Description="Frame_counter_list" Identifier="33552" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="ReList" Identifier="33553" IsArray="True" Datatype="Float"/>
+      <ColumnDescription Description="ImList" Identifier="33554" IsArray="True" Datatype="Float"/>
+      <ColumnDescription Description="EnergyList" Identifier="33555" IsArray="True" Datatype="Float"/> <!-- Quality Data -->
+      <ColumnDescription Description="L1" Identifier="33556" Datatype="UInt16"/> <!-- Test Level --> <!-- Preset Data -->
+      <ColumnDescription Description="L2" Identifier="33557" Datatype="UInt16"/> <!-- Test Level --> <!-- Preset Data -->
+    </RecordDescription>
+
+    <RecordDescription Identifier="32991" Description="DpoaeConfiguration">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="ConfigName" Identifier="33522" Datatype="String"/>
+      <ColumnDescription Description="Category" Identifier="33521" Datatype="UInt16"/>
+      <ColumnDescription Description="L1" Identifier="33697" Datatype="UInt16"/>
+      <ColumnDescription Description="L2" Identifier="33698" Datatype="UInt16"/>
+      <ColumnDescription Description="Frequencies" Identifier="33699" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="FrequencyOrders" Identifier="33700" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Description="Criterion" Identifier="33701" Datatype="UInt16"/>
+    </RecordDescription>
+  </RecordDescriptions>
+</RecordDescriptionSet>

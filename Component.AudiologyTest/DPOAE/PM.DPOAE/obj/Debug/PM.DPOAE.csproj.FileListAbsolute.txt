@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE\obj\Debug\PM.DPOAE.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE\obj\Debug\PathMedical.DPOAE.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE\obj\Debug\PM.DPOAE.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.AudiologyTest\DPOAE\PM.DPOAE\obj\Debug\PM.DPOAE.csproj.CoreCompileInputs.cache

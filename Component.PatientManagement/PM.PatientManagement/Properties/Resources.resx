@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PathMedical__MedicalRecordTypes__MRC" xml:space="preserve">
+    <value>Medical Research Council (MRC)</value>
+  </data>
+  <data name="RiskIndicatorField" xml:space="preserve">
+    <value>Risk Factors</value>
+  </data>
+  <data name="UnexcpectedErrorWhileLoadingPatients" xml:space="preserve">
+    <value>An unexcpected error occurred while loading patient data.</value>
+  </data>
+  <data name="PathMedical__MedicalRecordTypes__TURKEY" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+  <data name="Only10ActiveFieldsAllowed" xml:space="preserve">
+    <value>Only a maximum of 10 active fields is allowed.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__NicuStatus__Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PathMedical__PatientManagement__CreationTimeStampFilterType__Older" xml:space="preserve">
+    <value>Older</value>
+  </data>
+  <data name="TestIncomplete" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAASAMAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAr8g3BYrpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAtpJREFUOE9lkm1o1WUYxq+QOQjzgxL1QaEvQfShoBcbJ2WGsCKLYMVAe/kiq5A++cGlHzLI5aJmW+VZHNfZ1tlOzL2wtRfXcjq3eXwtNmubeTZtc7apiRBzZNPrF/9zjnSgB348z/++rvt+7vvPI18dkWeG5NG43FUsNxetcnT9TlevTXh/3owja2YceWbItc+VuHfbKvpK5NOV8kSHPH1U8uxpeeqwfDYqVz9Z7PqCKfftwMfK8FAp7tuO29/CsQ246pFp6jds8fEy+dwB+WKv5Lmf5el+uf31cncX41/q8E9f4IkOuDICs2fwcAQ3FuDoY7h8GW56qdS/tcgXeiQuHxM/bn2T2NP45B58aCv8cYL/rWQb3puLP7sHPhHueqPIozHJyZaVhFdMuTGE2zfiwe3phDv/QOer0LYRFhfSsXgefCooF4RXXvBw1XK5/713qBCuvh+iD0Lny3D7FozXwW5Bw+OweDNdoCkEewVfCiqFB7dtFt2vdPBVUFFQJdgnHH8YwrnQvBYWrqVyPdkK4Zz/fEGRrhejov3ZBF8LIlmEhaPLYf5S+ubJA7D/XpztC4p8n39KdOcnqBZEswgMHXnp5JuXoSaHlKcmyxN8d68fEEeL4ikhlsW3gvh9MF6JBzalE7P1gCDWX1gpn/2w0A3B3MLfZQjO8SV4sAj3riOl39Xu6vXCv+55QZ6oyqFj9Qniwa0Zgg4OF6RH8CI0r4D6LD3g4KMnPduTI671i7FdIVpzb1GbmS2g8SGYS0AyhmuWwjeZeJ2gNfdvxkvX+OoRiSsHxXStPBB6zW1LF1I/sFLweWavyBCcI8KtS+Y98m6h/xyUryck5jrFxbCceF5OrHuK3gd+oEF3Uu+hXDh4OPtSbd/m0OoeJ/Kf8LmP5OvH5RunJG6cSXXhsQ/k87vlyTI5WRJidMtOhje3MLypyWNv7yD5fp5/r5CTH8uX4vJf4/L8ef0LO2zHdc5c/FIAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="UnexcpectedErrorWhileLoadingComments" xml:space="preserve">
+    <value>An unexpected error occurred while loading comments.</value>
+  </data>
+  <data name="CantLoadRiskIndicators" xml:space="preserve">
+    <value>Risk indicators can't be loaded from the database.</value>
+  </data>
+  <data name="CantStorePatient" xml:space="preserve">
+    <value>An error occurred while storing patient data.</value>
+  </data>
+  <data name="MotherForenameField" xml:space="preserve">
+    <value>Mother Forename</value>
+  </data>
+  <data name="PathMedical__PatientManagement__RiskIndicatorManagement__RiskIndicatorValueType__Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PathMedical__PatientManagement__RiskIndicatorManagement__RiskIndicatorValueType__No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PathMedical__PatientManagement__AddressType__Primary" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="PatientManager_DeletePatient_CantDelete" xml:space="preserve">
+    <value>Patient can't be deleted.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__NicuStatus__No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="DatabaseConectionFailed" xml:space="preserve">
+    <value>The connection to the database failed.</value>
+  </data>
+  <data name="CantLoadPatients" xml:space="preserve">
+    <value>Patients can't be loaded from the database.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__ConsentStatus__None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PathMedical__PatientManagement__ConsentStatus__Full" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="PathMedical__PatientManagement__Gender__Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="PatientSurnameField" xml:space="preserve">
+    <value>Patient Surname</value>
+  </data>
+  <data name="PathMedical__MedicalRecordTypes__GERMANY" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="PatientDateOfBirthField" xml:space="preserve">
+    <value>Patient Date Of Birth</value>
+  </data>
+  <data name="PatientBirthLocationField" xml:space="preserve">
+    <value>Patient Birth Location</value>
+  </data>
+  <data name="UnexcpectedErrorWhileStoringPatient" xml:space="preserve">
+    <value>An unexpected error occurred while storing patient data.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__CreationTimeStampFilterType__Last3Months" xml:space="preserve">
+    <value>Last 3 Month</value>
+  </data>
+  <data name="CaregiverForenameField" xml:space="preserve">
+    <value>Caregiver Forename</value>
+  </data>
+  <data name="PathMedical__PatientManagement__RiskIndicatorManagement__RiskIndicatorValueType__Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PathMedical__PatientManagement__CreationTimeStampFilterType__ThisWeek" xml:space="preserve">
+    <value>This Week</value>
+  </data>
+  <data name="ConsentStateField" xml:space="preserve">
+    <value>Consent State</value>
+  </data>
+  <data name="CaregiverSurnameField" xml:space="preserve">
+    <value>Caregiver Surname</value>
+  </data>
+  <data name="NicuField" xml:space="preserve">
+    <value>NICU</value>
+  </data>
+  <data name="PatientWeightField" xml:space="preserve">
+    <value>Patient Weight</value>
+  </data>
+  <data name="PathMedical__PatientManagement__AddressType__Additional" xml:space="preserve">
+    <value>Additional</value>
+  </data>
+  <data name="TestDiagnostic" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA0wMAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAr8g3BYrpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2VJREFUOE9l019M01cUB/DT1mVx0+1FzdwwWbL4smRxy/wT43xQF8d4MFvc1GyL07i5KUsU1FrcgMIgnRIZBcr6Ryi2BRzRQu1Wyk/aIloqQ1pKBwWpgNAGcZW1QLt2hX6XXrcmZjc5ycnNPZ+T+48AUCpmonEaDUWo9f7DjBybp3DXz7fvbtVYQ5vruPl31O0jXxjsP2n7fRvvBcP0OBpjNalIJ+H4Ikn6xr78tL1/Mt8+jGrXGKqdPkgcXuTc6MMHV2zYJDfOZ1+3XwxG/lr+P6Cw9/75I9ZB1Hv9kLknUOQYRq7VjYO/9CCzyYbMBgu21ZrwYokGWWpTRySeWJEG1CPTh7bo7+K8cxwnu7w4zLmRqXdgq86Gj1u7UXTLg3UV17CiRItnxWpQTiW+1neqGRCMJdasa7wT2GF0YT83gE3N3djQ0IVjFjder+WwXWdFauRbXaA8FfgFteCfU0AglME2OvUuXfT4T5O8E69o7djQ7ECZcwwvKTmYx2fgm53H82VX0Tc9i3AsjlU/NIH33SUs+1YJypFi32WTgXaaPF2kuAlSWCGoMqNt4hEavX68qbGxzmcsLuTZ+lm+r9kGEsnBTwFCGV4WXwpSxpXeAKmeAFRhQtb1Xiwlk3hNxeHBXBQ9/j/wWWs3A0pvukHCJ4DgbA2eOVMFWtvU+zANSNuwQ9/DFqeAweAcBh+FsF9/m81J7wwxQPAvsOx0FWibceC3/7ZAUhPUQ1PoDsxidU0b4otL0HnGcaDFzoACizMN8IQyrMlXhqnYOVmcOkSSW/GcsgMNwwGsr7OgyDHCit5QmXHBMcTy97QcSKRkAOVWIktp6KDJ+dirq3WOWarpAK+6HVRuBJW1os49gWxzH/jfN2FqLoIHoQUsL6xnV8kTyUGnqqAf8H3EHpL0d7+QpO0giQFUcg1U3Aw6pwOdVGF3Hce6f6LhQEfLQcd+BGWXY6/W/OtSMslnQBLgH+r0NlJpC+iEGvSNCpStAB2txqoTcmwsuAw6UAraKwZ9LsFblVcHZxaia5/6CwuJRcHxW17JyguGKB2RgT6UgLLEoF0i0PZToMw88L4qxx4t1+IPR1jxU8DjWIK8f0aoYXT67YNmp2J9hXH0BVF9dGWuKpYh1gbe13B6lcu3ZzgYoujfiXTdP9QgqTzuDKFoAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="PatientManager_FailureGetBestTest" xml:space="preserve">
+    <value>Failure while loading best audiology test result</value>
+  </data>
+  <data name="TestRefer" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAoAMAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAr8g3BYrpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAzJJREFUOE+FzH9M1HUcBvAnoOxUOkBYO4UjftykrRUmGloEltV3K5Uf81Y7UlYJSCKy7IauywBZrS36Q+0PW26Iu3WEx3EchxR37DwO8O6AuyPvTn4koLQIh0J2h3897SutrZrzvb32fvZ5P/tgzmbFrLkDI/Un4G6og/1IlaSzqGivMT+/2SAIfQZBcHQUFmot5eXv2io/lLjra3H5/RL8Zu/F0uQ4MH1Rh4lzZ9GrUsKQl7Or9YWtw9ayUjprP6P7ZB0HatTsKdlHfe5LbE5JHm7f8XK+PvMZTLW1YME3AswYWnFdex6m3O1VvftUnNA2c+z8OY42fkm35hj7qypoe6+YFuUemnKzeUEWR11aUtXNSybc/tkL3DC0wnn44FuX8rYxcLqRIxo1BysP0L5fSWuBwO5Xstmx+WnqFeupk0VTGxvFZkkkPXUa5a0hJ3Bd2xRjTHtyzLb7VTrLimkveoPW17LZvTWDpgwZ2xKj2RofxZYYsEWK+1u3Fmx/at30+NkzUowcPlBhWAv+lJlMy5Z0diatpjEWbJOAFx/922OgXrQKbI8DjQmgYTXo+/hQOQaE7G5zLNgVBzp2PMvAiaMM1tUwWC869o9rJ4/zqrqCPemx7IoHzVLQpRRMGNyumLLEg7aUNQzfmObDZvbCt+yRgpYE0PX68z4M5yhm+2TgQKqEd71D/+3/b26e/pz2daBDBnqETVfh37XZ4ZKDrmTQk5XAiQ92c7KskBOlBf8yWV7IseKdHFJE0Z0KuhLBa2/nWTBTrdL4UsDRDNCXDnqSHswrB0c3rnTFPFOtqsH815r141nRc8E0MCAHA8kPIQeDqeD4lieW7uib5Ljb9T1+V79z6JcU0B8J+gH6H3kA8RYBit35T0rUYY8DCDvMCFv1WKgUvptOBH0APQC9WMkiMYtvYp7aAN4q2dYUcpgjlr19wHJ/F8KXjQjpTuGOKrNmbtPjC8EY0B0JDmKFOwIMSMG551bdXtyf9enSV9UIOTqx7HMA95yW+5+EfvgGfzSUIlxbrAgdzGlYzFf0z+/c8KtosWDjlXDZi1+EP3pT8WfjESydOo7wlR9xz+/EXzlwOhTNKYh5AAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="HospitalIdField" xml:space="preserve">
+    <value>Hospital ID</value>
+  </data>
+  <data name="PathMedical__PatientManagement__CreationTimeStampFilterType__Last4Weeks" xml:space="preserve">
+    <value>Last 4 Weeks</value>
+  </data>
+  <data name="TestPass" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAHAQAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAr8g3BYrpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA65JREFUOE89jWtME2YUho+GhJkN4oUWaKHFchMYtIDrQrY5ruqWuehQ8RIngYpsBSSZoileWJyMW1tgrVBapGJpqTBaG4awcZtaWRGlGbMWkEJgm8WFDDXL/PcuFOebPHm/5DvPOXR//jcam5+g1ntmKrHUUGHHJf/U+tyipOrD/QkVB36Pr8haeK/myM0MRV7eSVPN+q97ldTjGKbJpzM0uzRPNDI7TiNz49R410Bpyuyj25W5M6fMNZAOaj2U3VTieHsZ0hQ5iPl2l2O3Rry3++EgORanaPovF5HVdZ9+mbPTIV1x9Rcd59E+3o0ro52oGlJD0iNFQVcZjhpKkKkV4926vWCcF6LYfFHiWJykR4vTRJ2/9pDYVJq9Q30ECqsWkt4qiE1n8Xl7MXZfFSG1MQsJdR+DW56EePlO+JXFYZ0kHOf6qvfcco0Q1d9VB/Cq3/lzX5sIeaavkNmWg4zmfRAqdyJK/j44FQlYd46DQosEy/8+g+x2I7xKWYip3TbTNz3kQyJTkWRj+WZsbUjGB5qPEPtdEngyAYKqosGqjMTGSyFIvPwhnr18jpW0PNDB5yIbK075z9KDtK0l/Q5LGgqOPBIhtZEIkoaBK4sAV74Ks4qDH2f6PfKTF27wG4RgSXlgVnOQcyNfS3FN/GWeIhQrcOo5CL8cDlZtIEIVYfCX++NE3wmPvJKC3gIwZUyEKcMQXM/BZ52Zw7RVG/c8QsUFr4ENtV2FyaVJnBk+iSAlA4ktsXD/4/bIfa4ecJT+2NK0GVuaeJ75/eY9w/RJV8pI1BU2IpsDMea2vb7W47Kgb/YHz3v55d9IvS5ERHMAYrUhHsI1/igYyGmlouFsSawuEHE6NtK+F6B7tvP1kv/zzegZhF/dgERDCBL1XCTouXj7WgDq7RWHST+lZqVbYtyC6wxEG95CRJs3Cm8fwvwLl0e2PhlAlN4XfOMGCIybwDdugsDIQLI5clrjqH2TulxaKhv7UiQ0+4HdtgZMHcFHS4juYEB064Cn/a4RWG3k+QvWr0WSmQH5RGnmyOIAkc6pIONjFe0fii/n3/CFVwuBNK9Qverm1fbWEhIsvsizZpQM/mGie08HiVof1VGrs45y7iSTeDT9WEZ/8ALbsBbeasKahlXe0BA4Ri/s6A+ayrelZJ0aO0i9CwayLf5E1D1roO45PV0YF5Fq6gLp5ioDqpy5hSX2T03Hbcn2/NGUByX2XcZKZ+4x1eOz6+ucp0n28DRZ3b00sWSj/wA+Pz051+GvUQAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="PatientForenameField" xml:space="preserve">
+    <value>Patient Forename</value>
+  </data>
+  <data name="UnexcpectedErrorWhileLoadingRiskIndicators" xml:space="preserve">
+    <value>An unexpected error occurred while loading risk indicators.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__ConsentStatus__Screening" xml:space="preserve">
+    <value>Screening</value>
+  </data>
+  <data name="PathMedical__MedicalRecordTypes__CPR_DK" xml:space="preserve">
+    <value>CPR Denmark</value>
+  </data>
+  <data name="PatientRecordNumberField" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="CantLoadComments" xml:space="preserve">
+    <value>Comments can't be loaded from the database.</value>
+  </data>
+  <data name="PathMedical__PatientManagement__Gender__Male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="PatientGenderField" xml:space="preserve">
+    <value>Patient Gender</value>
+  </data>
+  <data name="MotherSurnameField" xml:space="preserve">
+    <value>Mother Surname</value>
+  </data>
+</root>

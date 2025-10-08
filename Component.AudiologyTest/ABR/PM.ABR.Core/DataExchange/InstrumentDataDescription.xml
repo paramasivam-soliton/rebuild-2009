@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecordDescriptionSet Name="ABR Screening"
+                 Identifier="Type1077"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <RecordDescriptions>
+
+    <RecordDescription Identifier="CommonHeader" Description="Common Header">
+      <ColumnDescription Description="Sync" Identifier="24576" Datatype="UInt16"/>
+      <ColumnDescription Description="RecordIdentifier" Identifier="24577" Datatype="UInt16"/>
+      <ColumnDescription Description="DataBlockLength" Identifier="24578" Datatype="UInt16"/>
+      <ColumnDescription Description="IsObsolete" Identifier="24579" Datatype="UInt16"/>
+      <ColumnDescription Description="PrimaryRecordId" Identifier="24581" Datatype="Guid"/>
+      <ColumnDescription Description="PatientId" Identifier="24582" Datatype="Guid"/>
+      <ColumnDescription Description="UserId" Identifier="24583" Datatype="Guid"/>
+      <ColumnDescription Description="FirmwareVersion" Identifier="24584" Datatype="UInt16"/>
+      <ColumnDescription Description="CreationDate" Identifier="24585" Datatype="DateTime"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="CommonTestHeader" Description="Common Test Header">
+      <ColumnDescription Description="TestModuleVersionNumber" Identifier="32769" Datatype="UInt16"/>
+      <ColumnDescription Description="TestedEar" Identifier="32771" Datatype="UInt16"/>
+      <ColumnDescription Description="AddiontionalTestPatientId" Identifier="32772" Datatype="Guid"/>
+      <ColumnDescription Description="ProbeType" Identifier="32773" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeSerialNumber" Identifier="32774" Datatype="UInt32"/>
+      <ColumnDescription Description="TestTimeStamp" Identifier="32775" Datatype="DateTime"/>
+      <ColumnDescription Description="InstrumentSerialNumber" Identifier="32776" Datatype="UInt32"/>
+      <ColumnDescription Description="ProbeTestCounter" Identifier="32777" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeCalibrationDate" Identifier="20496" Datatype="Date"/>
+      <ColumnDescription Description="TestDuration" Identifier="32778" Datatype="UInt16"/>
+      <ColumnDescription Description="ProbeStatus" Identifier="32780" Datatype="UInt16"/>
+      <ColumnDescription Description="TestName" Identifier="32779" Datatype="String"/>
+      <ColumnDescription Description="LocationId" Identifier="32782" Datatype="Guid"/>
+      <ColumnDescription Description="FacilityId" Identifier="32783" Datatype="Guid"/>
+    </RecordDescription>
+
+    <RecordDescription Identifier="32972" Description="ABR">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <IncludeRecordDescription Identifier="CommonTestHeader"/>
+      <ColumnDescription Description="TestResult" Identifier="33281" Datatype="UInt16"/>
+      <ColumnDescription Description="Version" Identifier="33282" Datatype="UInt16"/>
+      <ColumnDescription Description="Progress" Identifier="33283" Datatype="UInt16"/>
+      <ColumnDescription Description="Eeg" Identifier="33284" Datatype="UInt16"/> <!-- Quality Data-->
+      <ColumnDescription Description="Abr" Identifier="33285" Datatype="UInt16"/>
+      <ColumnDescription Description="GraphScale" Identifier="33286" Datatype="Float"/> <!-- Wave Form -->
+      <ColumnDescription Description="Graph" Identifier="33287" IsArray="True" Datatype="Int8"/> <!-- Wave Form -->
+      <ColumnDescription Description="Frames" Identifier="33288" Datatype="UInt16"/> <!-- Quality Data -->
+      <ColumnDescription Description="Energy" Identifier="33289" Datatype="Float"/> <!-- Quality Data -->
+      <ColumnDescription Description="CalibrationFrames" Identifier="33290" Datatype="UInt16"/> <!-- Quality Data-->
+      <ColumnDescription Description="CalibrationValues" Identifier="33291" Datatype="UInt16"/> <!-- Quality Data-->
+      <ColumnDescription Description="CalibrationGraphScale" Identifier="33292" Datatype="Float"/> <!-- Quality Data-->
+      <ColumnDescription Description="CalibrationGraph" Identifier="33293" IsArray="True" Datatype="Int8"/> <!-- Quality Data -->
+      <ColumnDescription Description="FrequencySamplingRate" Identifier="33294" Datatype="UInt16"/>
+      <ColumnDescription Description="Impedances" Identifier="33295" IsArray="True" Datatype="UInt16"/> <!-- Quality Data -->
+      <ColumnDescription Description="NotchAmplifier" Identifier="33296" IsArray="True" Datatype="Float"/> <!-- Quality Data--> <!-- Test Condition Data -->
+      <ColumnDescription Description="VariableNotchFrequency" Identifier="33297" Datatype="UInt16"/> <!-- Environmental Data --> <!-- Test Condition Data -->
+      <ColumnDescription Description="SimulusLevel" Identifier="33298" Datatype="UInt16"/> <!-- Test Level--> <!-- Preset Data -->
+    </RecordDescription>
+
+    <RecordDescription Identifier="32975" Description="AbrConfiguration">
+      <IncludeRecordDescription Identifier="CommonHeader"/>
+      <ColumnDescription Description="ConfigName" Identifier="33522" Datatype="String"/>
+      <ColumnDescription Description="Category" Identifier="33521" Datatype="UInt16"/>
+      <ColumnDescription Description="Level" Identifier="33441" Datatype="UInt16"/>
+    </RecordDescription>
+
+  </RecordDescriptions>
+</RecordDescriptionSet>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Plugin\PM.ABR.Viewer.WindowsForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D2A3FE9-BC61-4E42-8013-91AD3C5DD813}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.ABR.Viewer.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.ABR.Viewer.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.3">
+      <HintPath>lib\DevExpress.XtraCharts.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.3.UI">
+      <HintPath>lib\DevExpress.XtraCharts.v9.3.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.3">
+      <HintPath>lib\DevExpress.XtraGrid.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v9.3">
+      <HintPath>lib\DevExpress.XtraReports.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.ABR">
+      <HintPath>lib\PM.ABR.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.AudiologyTest" />
+    <Reference Include="PM.Core" />
+    <Reference Include="PM.InstrumentManagement.Core" />
+    <Reference Include="PM.PatientManagement" />
+    <Reference Include="PM.SiteAndFacilityManagement">
+      <HintPath>lib\PM.SiteAndFacilityManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserInterface.WindowsForms" />
+    <Reference Include="PM.UserProfileManagement" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABRComponent.cs" />
+    <Compile Include="Viewer\TestViewer.cs" />
+    <Compile Include="Viewer\TestViewerComponentModule.cs" />
+    <Compile Include="Viewer\TestViewerController.cs" />
+    <Compile Include="Report\AbrDetailSubSubReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TestDataPrintElement.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Configurator\ConfigurationEditorAbrComponentModule.cs" />
+    <Compile Include="Configurator\ConfigurationEditorAbrController.cs" />
+    <Compile Include="Configurator\ConfigurationEditorAbrMasterDetailBrowser.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configurator\ConfigurationEditorAbrMasterDetailBrowser.resx" />
+    <EmbeddedResource Include="PM\ABR\Viewer\WindowsForms\dll.licenses" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Report\AbrDetailSubSubReport.resx" />
+    <EmbeddedResource Include="Viewer\TestViewer.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

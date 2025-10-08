@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\paramasivam.g\Downloads\Release\Release\Base\PM.PatientManagement.Viewer.WindowsForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8041AC55-D3D8-4766-A319-9077AE4C1C78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PM.PatientManagement.Viewer.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PathMedical.PatientManagement.Viewer.WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3">
+      <HintPath>lib\DevExpress.Data.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.3">
+      <HintPath>lib\DevExpress.Utils.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.3">
+      <HintPath>lib\DevExpress.XtraBars.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.3">
+      <HintPath>lib\DevExpress.XtraEditors.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.3">
+      <HintPath>lib\DevExpress.XtraGrid.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.3">
+      <HintPath>lib\DevExpress.XtraLayout.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v9.3">
+      <HintPath>lib\DevExpress.XtraReports.v9.3.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.AudiologyTest">
+      <HintPath>lib\PM.AudiologyTest.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.Core">
+      <HintPath>lib\PM.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.PatientManagement">
+      <HintPath>lib\PM.PatientManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.SiteAndFacilityManagement">
+      <HintPath>lib\PM.SiteAndFacilityManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="PM.UserInterface.WindowsForms">
+      <HintPath>lib\PM.UserInterface.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentResourceManagement.cs" />
+    <Compile Include="PatientManagementComponent.cs" />
+    <Compile Include="RiskFactorManagement\RiskFactorManagementComponentModule.cs" />
+    <Compile Include="RiskFactorManagement\RiskFactorManagementController.cs" />
+    <Compile Include="RiskFactorManagement\RiskFactorMasterDetailBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="PredefinedCommentManagement\PredefinedCommentComponentModule.cs" />
+    <Compile Include="PredefinedCommentManagement\PredefinedCommentMaintenanceController.cs" />
+    <Compile Include="PredefinedCommentManagement\PredefinedCommentMasterDetailBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientEditor\PatientEditorComponentModule.cs" />
+    <Compile Include="PatientEditor\PatientEditorController.cs" />
+    <Compile Include="PatientEditor\PatientEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientEditor\Panels\PatientCommentEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientEditor\Panels\PatientDataEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientEditor\Panels\PatientRiskIndicatorEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientBrowser\PatientBrowserComponentModule.cs" />
+    <Compile Include="PatientBrowser\PatientBrowserController.cs" />
+    <Compile Include="PatientBrowser\PatientTestBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PatientBrowser\Reports\SingleTestReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PatientBrowser\Reports\DetailTestReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PatientBrowser\Reports\PatientDataPrintElement.cs" />
+    <Compile Include="PatientBrowser\DetailView\TestDetailViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\ConfigurationComponentModule.cs" />
+    <Compile Include="Configuration\ConfigurationController.cs" />
+    <Compile Include="Configuration\ConfigurationEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\CheckEditPosition.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\ConfigurationEditor.resx" />
+    <EmbeddedResource Include="PatientBrowser\DetailView\TestDetailViewer.resx" />
+    <EmbeddedResource Include="PatientBrowser\PatientTestBrowser.resx" />
+    <EmbeddedResource Include="PatientBrowser\Reports\DetailTestReport.resx" />
+    <EmbeddedResource Include="PatientBrowser\SingleTestReport.resx" />
+    <EmbeddedResource Include="PatientEditor\Panels\PatientCommentEditor.resx" />
+    <EmbeddedResource Include="PatientEditor\Panels\PatientDataEditor.resx" />
+    <EmbeddedResource Include="PatientEditor\Panels\PatientRiskIndicatorEditor.resx" />
+    <EmbeddedResource Include="PatientEditor\PatientEditor.resx" />
+    <EmbeddedResource Include="PM\PatientManagement\Viewer\WindowsForms\dll.licenses" />
+    <EmbeddedResource Include="PredefinedCommentManagement\PredefinedCommentMasterDetailBrowser.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="RiskFactorManagement\RiskFactorMasterDetailBrowser.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

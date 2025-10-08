@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ValidationRuleFailed" xml:space="preserve">
+    <value>Validation rule failed: {0}.</value>
+  </data>
+  <data name="DatabaseTransactionIsNotActive" xml:space="preserve">
+    <value>Database transaction is not active</value>
+  </data>
+  <data name="WrongFieldFormat" xml:space="preserve">
+    <value>Field has wrong format, please use {0}.</value>
+  </data>
+  <data name="DeleteCommand_SuccessfullyDeleted" xml:space="preserve">
+    <value>Successfully deleted.</value>
+  </data>
+  <data name="LogFactory_LoggerCreationFailure" xml:space="preserve">
+    <value>Can't create the requested logger.</value>
+  </data>
+  <data name="DeleteCommand_SuccessfullyDeletedWindowTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SystemConfigurationManager_NoFilesToBackup" xml:space="preserve">
+    <value>There are no files to backup.</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileCloseException_WriterAlreadyClosed" xml:space="preserve">
+    <value>Failure while closing the file {0}. The current writer is closed.</value>
+  </data>
+  <data name="PropertyHelper_ValueAssignmentException" xml:space="preserve">
+    <value>Member {0} of type {1} can't be set to value {2} of type {3}.</value>
+  </data>
+  <data name="StoreUnsavedChanges" xml:space="preserve">
+    <value>Store unsaved changes? Select Yes to store changes. Select No to discard changes. Select Cancel to abort the current command.</value>
+  </data>
+  <data name="System__Boolean__True" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ResourcesAdapter_ReadFailure" xml:space="preserve">
+    <value>Can't read resources from database.</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileCloseException_IoFailure" xml:space="preserve">
+    <value>Failure while closing the file {0}. An I/O error has occurred.</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileCloseException_UnicodeSurrogate" xml:space="preserve">
+    <value>Failure while closing the file {0}. The current encoding does not support displaying half of a Unicode surrogate pair.</value>
+  </data>
+  <data name="CouldNotDeleteRecordFromDatabase" xml:space="preserve">
+    <value>Could not delete record of type {0} with id {1} from the database</value>
+  </data>
+  <data name="DbAndEntityTypesDoNotMatch" xml:space="preserve">
+    <value>The types of property '{0}' in class '{1}' do not match: database has '{2}' and entity has '{3}'</value>
+  </data>
+  <data name="FlatFileStreamWriter_WriteException_FlushOrBufferFull" xml:space="preserve">
+    <value>Failure while writing to file {0}. AutoFlush is active or the buffer is full, and current file is closed.</value>
+  </data>
+  <data name="ResourceManagerNoAdequateConstructorException" xml:space="preserve">
+    <value>A resource manager shall be created but no adequate constructor is available. The type of the ResourceManager is '{0}' and the constructor that will be needed is '{1}'.</value>
+  </data>
+  <data name="CouldNotWriteRecordToDatabase" xml:space="preserve">
+    <value>Could not write record of type {0} with id {1} to database</value>
+  </data>
+  <data name="AssemblyClassTypeException" xml:space="preserve">
+    <value>A type load exception occurred while loading '{0}' which is located in assembly '{1}'.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__DeletionConfirmation__No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="AssemblyClassNotFoundException" xml:space="preserve">
+    <value>The class '{0}' was defined to create an instance for a plugin can't be found in '{1}'.</value>
+  </data>
+  <data name="PropertyHelper_InstanceCreationException" xml:space="preserve">
+    <value>Failure while creating an instance of type {0} for property {1}.</value>
+  </data>
+  <data name="AssemblyHasBadFormat" xml:space="preserve">
+    <value>The parameterized assembly '{0}' has a bad image format.</value>
+  </data>
+  <data name="RecordModifiedMeantime" xml:space="preserve">
+    <value>Record of type {0} with id {1} was modified in the meantime</value>
+  </data>
+  <data name="PropertyIsNotInARelationOrDoesNotExist" xml:space="preserve">
+    <value>Property {0} is not in a relation or does not exist</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileOpenExceptionSystemDeviceName" xml:space="preserve">
+    <value>Failure while opening the file {0}. Path contains the name of a system device (com1, com2, and so on).</value>
+  </data>
+  <data name="DataStorageNotConfigured" xml:space="preserve">
+    <value>The data storage was not configured properly (Location={0}, Provider={1}, Service={2}).</value>
+  </data>
+  <data name="ErrorWhenLoadingRecords" xml:space="preserve">
+    <value>Error when loading records</value>
+  </data>
+  <data name="AssemblyNotFoundException" xml:space="preserve">
+    <value>The parameterized assembly '{0}' can't be found.</value>
+  </data>
+  <data name="TimestampColumnInvalid" xml:space="preserve">
+    <value>Timestamp column for type {0} invalid: It must be a DateTime and only one is allowed per type</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileOpenException_InvalidPath" xml:space="preserve">
+    <value>Failure while opening the file {0}. The specified path is invalid, such as being on an unmapped drive.</value>
+  </data>
+  <data name="CreateResourceManagerException" xml:space="preserve">
+    <value>An unexpected exception occurred while creating a resource manager of type '{0}'.</value>
+  </data>
+  <data name="ReallyReAssignRecord" xml:space="preserve">
+    <value>Do you really want to reassign this record?</value>
+  </data>
+  <data name="CantDeleteRecord" xml:space="preserve">
+    <value>The record couldn't be deleted.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__TrackingSystem__None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FileSystemHelper_FileMissing" xml:space="preserve">
+    <value>The file {0} shall be copied but it doesn't exists.</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileIsWriteProtected" xml:space="preserve">
+    <value>Failure while opening stream because it is write protected.</value>
+  </data>
+  <data name="SystemConfigurationManager_UnconfiguredBackupFolder" xml:space="preserve">
+    <value>The backup folder isn't configured.</value>
+  </data>
+  <data name="DatabaseProviderFactory_UnconfiguredDatabaseProvider" xml:space="preserve">
+    <value>The database provider of the factory is unconfigured.</value>
+  </data>
+  <data name="CantLoadRecords" xml:space="preserve">
+    <value>The records could not be loaded from the database.</value>
+  </data>
+  <data name="CantLoadAssembly" xml:space="preserve">
+    <value>The parameterized assembly '{0}' can't be loaded due to ArgumentException.</value>
+  </data>
+  <data name="StateMachine_Exception_RegisterTransitionError" xml:space="preserve">
+    <value>Error while registering a transition.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__DeletionConfirmation__Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SaveCommand_SuccessfullySavedWindowTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SystemConfigurationManager_BackupFileMissing" xml:space="preserve">
+    <value>The file {0} shall be backed up but doesn't exists.{1}</value>
+  </data>
+  <data name="CantStoreUnloadedRelations" xml:space="preserve">
+    <value>Relations that have not been originally loaded cannot be stored back to the database (relation {0} of entity {1} with {2}.</value>
+  </data>
+  <data name="System__Boolean__False" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="LoginManager_NoLoginVerifierAttached" xml:space="preserve">
+    <value>No login verifier is attached. Cannot login user.</value>
+  </data>
+  <data name="DataNotValidCorrectFirst" xml:space="preserve">
+    <value>Data is not complete. See red arrows.</value>
+  </data>
+  <data name="SystemConfigurationManager_FolderCreationException" xml:space="preserve">
+    <value>An error occurred while creating the subfolder for the backup.</value>
+  </data>
+  <data name="AssemblyLoadedSuccessfully" xml:space="preserve">
+    <value>The assembly '{0}' has been loaded successfully.</value>
+  </data>
+  <data name="ImplementILoggerException" xml:space="preserve">
+    <value>The requested logger application '{0}' doesn't implement ILogger contract.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__StorageConfirmation__No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="DataExchangeManager_FileAccessDenied" xml:space="preserve">
+    <value>The access to file {0} has been denied.</value>
+  </data>
+  <data name="FlatFileStreamWriter_WriteException_EndOfStream" xml:space="preserve">
+    <value>Failure while writing to file {0}. AutoFlush is active or the buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the end the stream has been reached.</value>
+  </data>
+  <data name="PropertyHelper_NoMemberPropertyFound" xml:space="preserve">
+    <value>No member for [{0}] found.</value>
+  </data>
+  <data name="DataExchangeManager_FetchEntitiesFailure" xml:space="preserve">
+    <value>Failure while fetching entites for data exchange.</value>
+  </data>
+  <data name="GoBackCommand_GoBackFailed" xml:space="preserve">
+    <value>Failure while switching to the previous module.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__TrackingSystem__Generic" xml:space="preserve">
+    <value>Generic</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileAccessDenied" xml:space="preserve">
+    <value>Failure while opening the file {0}. Access has been denied.</value>
+  </data>
+  <data name="SaveCommand_SuccessfullySaved" xml:space="preserve">
+    <value>Successfully saved.</value>
+  </data>
+  <data name="ErrorWhenAssigningValueToField" xml:space="preserve">
+    <value>Error when assigning value {0} to field {1}</value>
+  </data>
+  <data name="RecordDoesNotExist" xml:space="preserve">
+    <value>Record of type {0} with id {1} does not exist in the database</value>
+  </data>
+  <data name="CheckForSingletonException" xml:space="preserve">
+    <value>An exception occurred while checking if '{0}' is a singleton.</value>
+  </data>
+  <data name="AssemblyNullException" xml:space="preserve">
+    <value>Assembly '{0}' can't be loaded. It is null after instance creation.</value>
+  </data>
+  <data name="DataExchangeManager_ImportFailure" xml:space="preserve">
+    <value>Failure while importing data.</value>
+  </data>
+  <data name="DataExchangeSetMap_FileAccessDenied" xml:space="preserve">
+    <value>The access to file {0} has been denied.</value>
+  </data>
+  <data name="RecordDeletedMeantime" xml:space="preserve">
+    <value>Record of type {0} with id {1} was deleted in the meantime</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileOpenException_AccessDenied" xml:space="preserve">
+    <value>Failure while opening the file {0}. The caller does not have the required permission.</value>
+  </data>
+  <data name="ReallyDeleteRecord" xml:space="preserve">
+    <value>Do you really want to delete this record?</value>
+  </data>
+  <data name="AssemblyIsNotAPluginException" xml:space="preserve">
+    <value>The assembly '{0}' shall be loaded as a plugin but is not defined as a plugin of type '{1}'.</value>
+  </data>
+  <data name="ExceptionFactory_ExceptionCreationFailure" xml:space="preserve">
+    <value>Failure while creating exception of type {0}</value>
+  </data>
+  <data name="ExactlyOneLoadInformationPropertyNeeded" xml:space="preserve">
+    <value>There must be exactly one property of type EntityLoadInformation in type {0}.</value>
+  </data>
+  <data name="FlatFileStreamWriter_FileOpenException_FilenameHasInvalidSyntax" xml:space="preserve">
+    <value>Failure while opening the file {0}. Path includes an incorrect or invalid syntax for file name, directory name, or volume label syntax.</value>
+  </data>
+  <data name="CantStoreRecord" xml:space="preserve">
+    <value>The record couldn't be stored.</value>
+  </data>
+  <data name="PathMedical__SystemConfiguration__Core__StorageConfirmation__Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PrimaryKeyForClassMissing" xml:space="preserve">
+    <value>The primary key for type {0} is missing</value>
+  </data>
+  <data name="SystemConfigurationManager_BackupFolderMissing" xml:space="preserve">
+    <value>The backup folder doesn't exists anymore or access has been rejected. Please reconfigure the backup folder.</value>
+  </data>
+  <data name="FlatFileStreamWriter_WriteException_IoFailure" xml:space="preserve">
+    <value>Failure while writing to file {0}. An I/O error occurs.</value>
+  </data>
+</root>

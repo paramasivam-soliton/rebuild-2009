@@ -1,0 +1,13 @@
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PM.UserInterface.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.Assistant.AssistantForm.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.Login.LoginPanel.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.ModelViewController.AssistantView.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.ModelViewController.View.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.Properties.Path.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.Recovery.RecoveryConsoleView.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.SplashScreen.SplashScreen.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.UserInterfaceControls.Controls.DevExpress.DevExpressButtonEdit.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PathMedical.UserInterface.WindowsForms.UserInterfaceControls.Controls.DevExpress.DevExpressTextEdit.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PM.UserInterface.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.UserInterface.WindowsForms\obj\Debug\PM.UserInterface.WindowsForms.csproj.CoreCompileInputs.cache

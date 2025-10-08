@@ -1,0 +1,7 @@
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PM.DataExchange.eSP.Connector.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PathMedical.DataExchange.eSP.Connector.WindowsForms.Configuration.EspConfigurationEditor.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PathMedical.DataExchange.eSP.Connector.WindowsForms.ConfigurationImport.EspImportConfigurationAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PathMedical.DataExchange.eSP.Connector.WindowsForms.Export.EspExportAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PathMedical.DataExchange.eSP.Connector.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PM.DataExchange.eSP.Connector.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.DataExchange\eSP\PM.DataExchange.eSP.Connector\obj\Debug\PM.DataExchange.eSP.Connector.csproj.CoreCompileInputs.cache

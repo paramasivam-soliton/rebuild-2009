@@ -1,0 +1,4 @@
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.VistaDB\obj\Debug\PM.DatabaseManagement.VistaDB.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.VistaDB\obj\Debug\PathMedical.DatabaseManagement.VistaDB.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.VistaDB\obj\Debug\PM.DatabaseManagement.VistaDB.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.Core\PM.DatabaseManagement.VistaDB\obj\Debug\PM.DatabaseManagement.VistaDB.csproj.CoreCompileInputs.cache

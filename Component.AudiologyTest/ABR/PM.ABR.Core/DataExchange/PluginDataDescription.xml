@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RecordDescriptionSet Name="ABR Screening Plugin" 
+                 Identifier="PM" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <RecordDescriptions>
+
+    <!-- ABR -->
+    <RecordDescription Identifier="ABR.TestInformation">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="PatientId" Datatype="Guid"/>
+      <ColumnDescription Identifier="UserAccountId" Datatype="Guid"/>
+      <ColumnDescription Identifier="LocationId" Datatype="Guid"/>
+      <ColumnDescription Identifier="FacilityId" Datatype="Guid"/>
+      <ColumnDescription Identifier="TestName" Datatype="String"/>
+      <ColumnDescription Identifier="FirmwareVersion" Datatype="UInt32"/>
+      <ColumnDescription Identifier="TestTimeStamp" Datatype="DateTime"/>
+      <ColumnDescription Identifier="Duration" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Ear" Datatype="UInt16"/>
+      <ColumnDescription Identifier="TestResult" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeType" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeSerialNumber" Datatype="UInt32"/>
+      <ColumnDescription Identifier="ProbeCounter" Datatype="UInt16"/>
+      <ColumnDescription Identifier="InstrumentSerialNumber" Datatype="UInt32"/>
+      <ColumnDescription Identifier="Version" Datatype="UInt16"/>
+      <ColumnDescription Identifier="ProbeCalibrationDate" Datatype="Date"/>
+      <ColumnDescription Identifier="Progress" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Eeg" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Abr" Datatype="UInt16"/>
+      <ColumnDescription Identifier="GraphScale" Datatype="Float"/>
+      <ColumnDescription Identifier="Graph" IsArary="True" Datatype="Int8"/>
+      <ColumnDescription Identifier="Frames" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Energy" Datatype="Float"/>
+      <ColumnDescription Identifier="CalibrationFrames" Datatype="UInt16"/>
+      <ColumnDescription Identifier="CalibrationValues" Datatype="UInt16"/>
+      <ColumnDescription Identifier="CalibrationGraphScale" Datatype="Float"/>
+      <ColumnDescription Identifier="CalibrationGraph" IsArray="True" Datatype="Int8"/>
+      <ColumnDescription Identifier="FrequencySamplingRate" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Impedances" IsArray="True" Datatype="UInt16"/>
+      <ColumnDescription Identifier="NotchAmplifier" IsArray="True" Datatype="Float"/>
+      <ColumnDescription Identifier="VariableNotchFrequency" Datatype="UInt16"/>
+      <ColumnDescription Identifier="SimulusLevel" Datatype="UInt16"/>
+    </RecordDescription>
+    
+    <!-- An ABR Preset -->
+    <RecordDescription Identifier="AbrPreset">
+      <ColumnDescription Identifier="Id" Datatype="Guid"/>
+      <ColumnDescription Identifier="Name" Datatype="String"/>
+      <ColumnDescription Identifier="Description" Datatype="String"/>
+      <ColumnDescription Identifier="Level" Datatype="UInt16"/>
+      <ColumnDescription Identifier="Category" Datatype="UInt16"/>
+    </RecordDescription>
+
+  </RecordDescriptions>
+</RecordDescriptionSet>

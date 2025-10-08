@@ -1,0 +1,8 @@
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\bin\Debug\PM.SystemConfiguration.Core.dll
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\bin\Debug\PM.SystemConfiguration.Core.pdb
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\bin\Debug\PM.Core.dll
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\obj\Debug\PM.SystemConfiguration.Core.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\obj\Debug\PM.SystemConfiguration.Core.csproj.CoreCompileInputs.cache
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\obj\Debug\PM.Syste.66047F37.Up2Date
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\obj\Debug\PM.SystemConfiguration.Core.dll
+C:\Drive\natus\2009-rebuild\Component.SystemConfiguration\PM.SystemConfiguration.Core\obj\Debug\PM.SystemConfiguration.Core.pdb

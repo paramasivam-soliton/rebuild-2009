@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by XMLSPY 2006 Enterprise Ed. Release 3, Installed for 2
+users (with SMP from 2006-06-16 to 2007-06-17) (Northgate Information Solutions UK Limited) -->
+<xs:schema xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org/XMLSchema.xsd"
+elementFormDefault="qualified">
+  <xs:simpleType name="MessageDate">
+    <xs:restriction base="xs:dateTime" />
+  </xs:simpleType>
+  <xs:complexType name="EquipmentType">
+    <xs:sequence>
+      <xs:element name="espDeviceCode" nillable="false">
+        <xs:simpleType>
+          <xs:restriction base="xs:int" />
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ProbeId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="25" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ScreenerType">
+    <xs:sequence>
+      <xs:element name="espUserID" nillable="false">
+        <xs:simpleType>
+          <xs:restriction base="xs:int" />
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ScreenerId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TestLocationType">
+    <xs:sequence>
+      <xs:element name="SiteCode" nillable="false">
+        <xs:simpleType>
+          <xs:restriction base="SiteCodeType" />
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="FacilityId" nillable="false">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="FacilityLocation" type="FacilityLocationType" nillable="true" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="FacilityLocationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Inpatient" />
+      <xs:enumeration value="Outpatient" />
+      <xs:enumeration value="Home Visit" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="PatientType">
+    <xs:sequence>
+      <xs:element name="PatientId" type="PatientIdType" />
+      <xs:element name="Title" type="xs:string" nillable="true" />
+      <xs:element name="Forename" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="35" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Surname" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="80" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="FullName" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="150" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="DOB" type="xs:dateTime" nillable="true" />
+      <xs:element name="Consent" type="ConsentType" nillable="true" />
+      <xs:element name="NICU" type="YesNoType" nillable="true" />
+      <xs:element name="RiskFactors" type="RiskFactorsType" />
+      <xs:element name="Tests" type="TestTypes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PatientIdType">
+    <xs:sequence>
+      <xs:element name="NHSId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="12" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="LocalId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="30" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="NHSIdType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="12" />
+      <xs:pattern value="" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ConsentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Full" />
+      <xs:enumeration value="Screening" />
+      <xs:enumeration value="Already Given" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="YesNoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Yes" />
+      <xs:enumeration value="No" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="TestType">
+    <xs:sequence>
+      <xs:element name="TestId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="30" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Ear" type="EarType" nillable="true" />
+      <xs:element name="TestType" type="TestTypeType" nillable="true" />
+      <xs:element name="StartDate" type="xs:dateTime" nillable="true" />
+      <xs:element name="EndDate" type="xs:dateTime" nillable="true" />
+      <xs:element name="Duration" type="xs:integer" nillable="true" />
+      <xs:element name="TestOutcome" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="TestOutcomeType">
+            <xs:maxLength value="30" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="TestImageArray" type="xs:base64Binary" nillable="true" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TestTypes">
+    <xs:sequence>
+      <xs:element name="Test" type="TestType" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="TestTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Dp" />
+      <xs:enumeration value="Transient" />
+      <xs:enumeration value="Steady State" />
+      <xs:enumeration value="AABR" />
+      <xs:enumeration value="Cradles" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TestOutcomeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CR" />
+      <xs:enumeration value="NCR" />
+      <xs:enumeration value="Incomplete" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EarType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="FullNameType">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+  <xs:complexType name="RiskFactorsType">
+    <xs:sequence>
+      <xs:element name="RiskFactor" type="RiskFactorType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RiskFactorType">
+    <xs:sequence>
+      <xs:element name="RiskFactorId" nillable="true">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="50" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="RiskFactorValue" type="xs:string" nillable="true" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="GUIDType">
+    <xs:restriction base="xs:string">
+      <xs:length value="36" />
+      <xs:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SiteCodeType">
+    <xs:restriction base="xs:string">
+      <xs:length value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="eSPTestResults">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="eSPTestResult" type="eSPTestResultType" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="eSPTestResultType">
+    <xs:sequence>
+      <xs:element name="MessageRef" type="GUIDType" nillable="false" />
+      <xs:element name="Equipment" type="EquipmentType" />
+      <xs:element name="Screener" type="ScreenerType" />
+      <xs:element name="TestLocation" type="TestLocationType" />
+      <xs:element name="Patient" type="PatientType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

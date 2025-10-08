@@ -1,0 +1,8 @@
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PM.Type1077.Communicator.WindowsForms.csproj.AssemblyReference.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PathMedical.Type1077.Communicator.WindowsForms.ConfigurationSynchronization.ConfigurationSynchronizationAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PathMedical.Type1077.Communicator.WindowsForms.DataDownload.DownloadAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PathMedical.Type1077.Communicator.WindowsForms.DataUpload.UploadAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PathMedical.Type1077.Communicator.WindowsForms.FirmwareImageImport.FirmwareImportAssistant.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PathMedical.Type1077.Communicator.WindowsForms.Properties.Resources.resources
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PM.Type1077.Communicator.WindowsForms.csproj.GenerateResource.cache
+C:\Drive\natus\2009-rebuild\Component.InstrumentManagement\Type 1077\PM.Type1077.Communicator.WindowsForms\obj\Debug\PM.Type1077.Communicator.WindowsForms.csproj.CoreCompileInputs.cache
